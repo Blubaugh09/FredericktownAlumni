@@ -123,7 +123,13 @@ export default function Home() {
             <div className="flex justify-center">
               <div className="relative w-full max-w-sm h-72">
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -rotate-6 bg-white p-2 shadow-lg rounded transform transition duration-300 hover:rotate-0 z-10">
-                  <div className="h-64 w-48 bg-gray-300"></div>
+                  <Image
+                    src="/images/1961_Yearbook.png"
+                    alt="1961 Fredericktown Yearbook"
+                    width={192}
+                    height={256}
+                    className="h-64 w-48 object-cover"
+                  />
                 </div>
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 rotate-3 bg-white p-2 shadow-lg rounded transform transition duration-300 hover:rotate-0 z-20">
                   <div className="h-64 w-48 bg-gray-300"></div>
