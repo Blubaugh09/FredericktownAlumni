@@ -11,6 +11,10 @@ const nextConfig = {
     // your project has TypeScript errors.
     ignoreBuildErrors: true,
   },
+  images: {
+    unoptimized: true, // This disables image optimization for Netlify compatibility
+  },
+  output: 'export', // Use static export for Netlify
 };
 
 export default nextConfig; 
