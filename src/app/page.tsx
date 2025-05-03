@@ -10,29 +10,40 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-school-red/90 to-school-red/70 z-10"></div>
           <div className="absolute inset-0 bg-[url('/hero-background.jpg')] bg-cover bg-center opacity-25"></div>
         </div>
-        <div className="relative z-20 max-w-7xl mx-auto px-4 py-24 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
-              Fredericktown Alumni Association
-            </h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-10">
-              Connecting generations of alumni while supporting the future of Fredericktown education.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Link 
-                href="/scholarships" 
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md bg-white text-black"
-              >
-                Scholarships
-              </Link>
-              <a 
-                href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
-                target="_blank"
-                rel="noopener noreferrer" 
-                className="inline-flex items-center justify-center px-5 py-3 border border-gray-300 text-base font-bold rounded-md text-white bg-gray-700 hover:bg-gray-600 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
-              >
-                Support Our Mission
-              </a>
+        <div className="relative z-20 max-w-7xl mx-auto px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="text-center md:text-left md:max-w-2xl">
+              <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
+                Fredericktown Alumni Association
+              </h1>
+              <p className="text-xl md:text-2xl max-w-3xl mx-auto md:mx-0 mb-10 italic">
+                Freddies Helping Freddies
+              </p>
+              <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                <Link 
+                  href="/scholarships" 
+                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md bg-white text-black"
+                >
+                  Scholarships
+                </Link>
+                <a 
+                  href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
+                  target="_blank"
+                  rel="noopener noreferrer" 
+                  className="inline-flex items-center justify-center px-5 py-3 border border-gray-300 text-base font-bold rounded-md text-white bg-gray-700 hover:bg-gray-600 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                >
+                  Support Our Mission
+                </a>
+              </div>
+            </div>
+            <div className="mt-10 md:mt-0 max-w-xs">
+              <Image
+                src="/images/FreddiesHelpingFreddies2.png"
+                alt="Freddies Helping Freddies"
+                width={300}
+                height={300}
+                className="w-40 md:w-64 h-auto mx-auto object-contain"
+              />
             </div>
           </div>
         </div>
