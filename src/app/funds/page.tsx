@@ -16,7 +16,7 @@ export default function Funds() {
             </div>
             <div className="mt-10 md:mt-0 max-w-xs">
               <Image
-                src="/images/FreddiesHelpingFreddies5.png"
+                src="/images/FreddiesHelpingFreddies6.png"
                 alt="Freddies Helping Freddies"
                 width={300}
                 height={300}
