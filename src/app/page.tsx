@@ -38,7 +38,7 @@ export default function Home() {
             </div>
             <div className="mt-10 md:mt-0 max-w-xs">
               <Image
-                src="/images/FreddiesHelpingFreddies2.png"
+                src="/images/FreddiesHelpingFreddies5.png"
                 alt="Freddies Helping Freddies"
                 width={300}
                 height={300}
