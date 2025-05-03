@@ -121,11 +121,11 @@ export default function Home() {
               </Link>
             </div>
             <div className="flex justify-center">
-              <div className="relative w-full max-w-sm">
-                <div className="absolute -rotate-6 bg-white p-2 shadow-lg rounded transform transition duration-300 hover:rotate-0">
+              <div className="relative w-full max-w-sm h-72">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 -rotate-6 bg-white p-2 shadow-lg rounded transform transition duration-300 hover:rotate-0 z-10">
                   <div className="h-64 w-48 bg-gray-300"></div>
                 </div>
-                <div className="absolute rotate-3 bg-white p-2 shadow-lg rounded transform transition duration-300 hover:rotate-0">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 rotate-3 bg-white p-2 shadow-lg rounded transform transition duration-300 hover:rotate-0 z-20">
                   <div className="h-64 w-48 bg-gray-300"></div>
                 </div>
               </div>
