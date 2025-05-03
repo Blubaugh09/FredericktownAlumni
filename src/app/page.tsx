@@ -114,8 +114,10 @@ export default function Home() {
                 spanning decades of memories, achievements, and school history.
               </p>
               <Link 
-                href="/yearbooks" 
+                href="https://fredericktown.touchpros.com/FlipbookYear?tabid=7974" 
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Browse Yearbooks
               </Link>
@@ -123,6 +125,16 @@ export default function Home() {
             <div className="flex justify-center">
               <div className="relative w-full max-w-sm h-72">
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -rotate-6 bg-white p-2 shadow-lg rounded transform transition duration-300 hover:rotate-0 z-10">
+                <Image
+                    src="/images/2005_Yearbook.png"
+                    alt="2005 Fredericktown Yearbook"
+                    width={192}
+                    height={256}
+                    className="h-64 w-48 object-cover"
+                  />
+                </div>
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 rotate-3 bg-white p-2 shadow-lg rounded transform transition duration-300 hover:rotate-0 z-20">
+                  <div className="h-64 w-48 bg-gray-300">
                   <Image
                     src="/images/1961_Yearbook.png"
                     alt="1961 Fredericktown Yearbook"
@@ -130,9 +142,8 @@ export default function Home() {
                     height={256}
                     className="h-64 w-48 object-cover"
                   />
-                </div>
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 rotate-3 bg-white p-2 shadow-lg rounded transform transition duration-300 hover:rotate-0 z-20">
-                  <div className="h-64 w-48 bg-gray-300"></div>
+
+                  </div>
                 </div>
               </div>
             </div>
