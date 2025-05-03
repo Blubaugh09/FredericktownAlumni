@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Donors() {
   return (
@@ -6,20 +7,31 @@ export default function Donors() {
       {/* Hero section */}
       <div className="relative bg-school-red text-white">
         <div className="max-w-7xl mx-auto px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">Support Our Mission</h1>
-            <p className="mt-6 max-w-3xl mx-auto text-xl">
-              Your generosity helps shape the future of Fredericktown students.
-            </p>
-            <div className="mt-8">
-              <a 
-                href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-lg font-medium rounded-md text-school-red bg-white hover:bg-gray-100 shadow-md"
-              >
-                Donate Now
-              </a>
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="text-center md:text-left md:max-w-2xl">
+              <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">Support Our Mission</h1>
+              <p className="mt-6 max-w-3xl mx-auto md:mx-0 text-xl">
+                Your generosity helps shape the future of Fredericktown students.
+              </p>
+              <div className="mt-8">
+                <a 
+                  href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-lg font-medium rounded-md text-school-red bg-white hover:bg-gray-100 shadow-md"
+                >
+                  Donate Now
+                </a>
+              </div>
+            </div>
+            <div className="mt-10 md:mt-0 max-w-xs">
+              <Image
+                src="/images/FreddiesHelpingFreddies5.png"
+                alt="Freddies Helping Freddies"
+                width={300}
+                height={300}
+                className="w-40 md:w-64 h-auto mx-auto object-contain"
+              />
             </div>
           </div>
         </div>

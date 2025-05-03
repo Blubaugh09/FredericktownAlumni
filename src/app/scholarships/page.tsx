@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Scholarships() {
   const namedScholarships = [
@@ -129,11 +130,22 @@ export default function Scholarships() {
       {/* Hero section */}
       <div className="relative bg-school-red text-white">
         <div className="max-w-7xl mx-auto px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">Scholarships</h1>
-            <p className="mt-6 max-w-3xl mx-auto text-xl">
-              Supporting educational excellence and future generations of leaders.
-            </p>
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="text-center md:text-left md:max-w-2xl">
+              <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">Scholarships</h1>
+              <p className="mt-6 max-w-3xl mx-auto md:mx-0 text-xl">
+                Supporting educational excellence and future generations of leaders.
+              </p>
+            </div>
+            <div className="mt-10 md:mt-0 max-w-xs">
+              <Image
+                src="/images/FreddiesHelpingFreddies5.png"
+                alt="Freddies Helping Freddies"
+                width={300}
+                height={300}
+                className="w-40 md:w-64 h-auto mx-auto object-contain"
+              />
+            </div>
           </div>
         </div>
       </div>
