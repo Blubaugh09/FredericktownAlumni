@@ -6,7 +6,7 @@ export default function Funds() {
     <div className="bg-white">
       {/* Hero section */}
       <div className="relative bg-school-red text-white">
-        <div className="max-w-7xl mx-auto px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 py-16  sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-center md:text-left md:max-w-2xl">
               <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">Our Funds</h1>
@@ -234,31 +234,7 @@ export default function Funds() {
                     All Gifts help change lives and are appreciated. Every gift is acknowledged with a thank you note 
                     and tax receipt. Also, all gifts made during the year are listed in the Alumni Banquet Program as follows:
                   </p>
-                  <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="bg-gray-50 p-4 rounded-md">
-                      <h5 className="font-semibold">Annual Recognition</h5>
-                      <ul className="mt-2 space-y-2">
-                        <li><span className="font-medium">Freddie:</span> &lt;$100</li>
-                        <li><span className="font-medium">Century:</span> $100+</li>
-                        <li><span className="font-medium">Silver:</span> $250+</li>
-                        <li><span className="font-medium">Gold:</span> $500+</li>
-                        <li><span className="font-medium">Platinum:</span> $1,000+</li>
-                      </ul>
-                    </div>
-                    <div className="bg-gray-50 p-4 rounded-md">
-                      <h5 className="font-semibold">Permanent Recognition</h5>
-                      <p className="text-sm text-gray-600 mb-2">
-                        "Founder" gifts cumulating to $1,000 or greater are permanently listed on
-                        the Permanent Donor Recognition Plaque in the School Entrance Lobby:
-                      </p>
-                      <ul className="mt-2 space-y-2">
-                        <li><span className="font-medium">Founder:</span> $1,000+</li>
-                        <li><span className="font-medium">Silver Founder:</span> $2,500+</li>
-                        <li><span className="font-medium">Gold Founder:</span> $5,000+</li>
-                        <li><span className="font-medium">Platinum Founder:</span> $10,000+</li>
-                      </ul>
-                    </div>
-                  </div>
+                 
                 </div>
                 
                 <div>
@@ -307,52 +283,108 @@ export default function Funds() {
                 our stewardship of donated funds.
               </p>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
                 <div className="bg-gray-50 p-6 rounded-lg text-center">
                   <h4 className="font-bold text-lg mb-2">8th Annual Report</h4>
-                  <p className="text-sm text-gray-500 mb-4">December 31, 2022</p>
-                  <a href="#" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800">
-                    Download PDF
+                  <p className="text-sm text-gray-500 mb-4">June 2023</p>
+                  <a 
+                    href="/pdfs/Annual_Reports/2023-06-18-FHS-Alumni-8th-Annual-Report-Option-2-V11.pdf" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    View Report
                   </a>
                 </div>
-                
+
                 <div className="bg-gray-50 p-6 rounded-lg text-center">
                   <h4 className="font-bold text-lg mb-2">7th Annual Report</h4>
-                  <p className="text-sm text-gray-500 mb-4">December 31, 2021</p>
-                  <a href="#" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800">
-                    Download PDF
+                  <p className="text-sm text-gray-500 mb-4">March 2022</p>
+                  <a 
+                    href="/pdfs/Annual_Reports/2022-Alumni-Scholarships-7th-Annual-Report-V10-2.03.2022.pdf" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    View Report
                   </a>
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-lg text-center">
                   <h4 className="font-bold text-lg mb-2">6th Annual Report</h4>
                   <p className="text-sm text-gray-500 mb-4">April 2021</p>
-                  <a href="#" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800">
-                    Download PDF
+                  <a 
+                    href="/pdfs/Annual_Reports/2021-04-FHS-6th-Annual-Report.pdf" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    View Report
                   </a>
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-lg text-center">
                   <h4 className="font-bold text-lg mb-2">5th Annual Report</h4>
                   <p className="text-sm text-gray-500 mb-4">June 2020</p>
-                  <a href="#" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800">
-                    Download PDF
+                  <a 
+                    href="/pdfs/Annual_Reports/2020-06-FHS-5th-Annual-Report.pdf" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    View Report
                   </a>
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-lg text-center">
                   <h4 className="font-bold text-lg mb-2">4th Annual Report</h4>
                   <p className="text-sm text-gray-500 mb-4">June 2019</p>
-                  <a href="#" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800">
-                    Download PDF
+                  <a 
+                    href="/pdfs/Annual_Reports/2019-06-FHS-4th-Annual-Report.pdf" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    View Report
                   </a>
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-lg text-center">
-                  <h4 className="font-bold text-lg mb-2">View More Reports</h4>
-                  <p className="text-sm text-gray-500 mb-4">2015-2018</p>
-                  <a href="#" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800">
-                    View Archive
+                  <h4 className="font-bold text-lg mb-2">3rd Annual Report</h4>
+                  <p className="text-sm text-gray-500 mb-4">June 2018</p>
+                  <a 
+                    href="/pdfs/Annual_Reports/2018-06-FHS-3rd-Annual-Report.pdf" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    View Report
+                  </a>
+                </div>
+                
+                <div className="bg-gray-50 p-6 rounded-lg text-center">
+                  <h4 className="font-bold text-lg mb-2">2nd Annual Report</h4>
+                  <p className="text-sm text-gray-500 mb-4">June 2017</p>
+                  <a 
+                    href="/pdfs/Annual_Reports/2017-06-FHS-2nd-Annual-Report.pdf" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    View Report
+                  </a>
+                </div>
+                
+                <div className="bg-gray-50 p-6 rounded-lg text-center">
+                  <h4 className="font-bold text-lg mb-2">1st Annual Report</h4>
+                  <p className="text-sm text-gray-500 mb-4">June 2016</p>
+                  <a 
+                    href="/pdfs/Annual_Reports/2016-06-FHS-1st-Annual-Report.pdf" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    View Report
                   </a>
                 </div>
               </div>

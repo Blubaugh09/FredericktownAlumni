@@ -10,7 +10,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-school-red/90 to-school-red/70 z-10"></div>
           <div className="absolute inset-0 bg-[url('/hero-background.jpg')] bg-cover bg-center opacity-25"></div>
         </div>
-        <div className="relative z-20 max-w-7xl mx-auto px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
+        <div className="relative z-20 max-w-7xl mx-auto px-4 py-16  sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-center md:text-left md:max-w-2xl">
               <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
@@ -44,6 +44,82 @@ export default function Home() {
                 height={300}
                 className="w-40 md:w-64 h-auto mx-auto object-contain"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FHS Alumni Scholarship Fund Section */}
+      <section className="py-16 bg-gray-50 border-t border-b border-gray-200">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">FHS Alumni Scholarship Fund</h2>
+            <div className="h-1 w-20 bg-school-red mx-auto"></div>
+          </div>
+          
+          <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200">
+            <div className="prose prose-red prose-lg max-w-none">
+              <p>
+                FHS Alumni Scholarship Fund was created with the goal of assisting FHS graduates reach their dreams by attending a post-secondary institution.
+              </p>
+              
+              <div className="my-6 p-4 bg-gray-50 border-l-4 border-school-red rounded">
+                <p className="text-xl font-medium italic text-gray-800">
+                  "Freddies helping Freddies" describes this effort.
+                </p>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
+                
+                
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <div className="flex items-center mb-3">
+                    <div className="flex-shrink-0">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-school-red" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                      </svg>
+                    </div>
+                    <h3 className="ml-2 text-lg font-semibold text-gray-900">Management</h3>
+                  </div>
+                  <p className="text-gray-700">
+                    The Fund is professionally managed by the Knox County Foundation; donations are tax deductible.
+                  </p>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <div className="flex items-center mb-3">
+                    <div className="flex-shrink-0">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-school-red" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <h3 className="ml-2 text-lg font-semibold text-gray-900">Our Goal</h3>
+                  </div>
+                  <p className="text-gray-700">
+                    "More and larger Scholarships – every year!"
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex flex-col md:flex-row justify-between items-center gap-6 mt-6 bg-gray-50 p-6 rounded-lg">
+                <div className="flex-1">
+                  <div className="flex items-center mb-2">
+                   
+                    
+                  </div>
+                  <ul className="list-disc list-inside space-y-1 text-gray-700 ml-6">
+                    <li>All Scholarships are awarded or renewed each year</li>
+                    <li>Students apply through the FHS Guidance Office</li>
+                  </ul>
+                </div>
+                
+                <Link 
+                  href="/scholarships" 
+                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-school-red hover:bg-red-800 shadow-md"
+                >
+                  Learn More About Scholarships
+                </Link>
+              </div>
             </div>
           </div>
         </div>

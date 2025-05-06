@@ -6,7 +6,7 @@ export default function Donors() {
     <div className="bg-white">
       {/* Hero section */}
       <div className="relative bg-school-red text-white">
-        <div className="max-w-7xl mx-auto px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 py-16  sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-center md:text-left md:max-w-2xl">
               <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">Support Our Mission</h1>

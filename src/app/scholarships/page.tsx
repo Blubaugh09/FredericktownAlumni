@@ -129,7 +129,7 @@ export default function Scholarships() {
     <div className="bg-white">
       {/* Hero section */}
       <div className="relative bg-school-red text-white">
-        <div className="max-w-7xl mx-auto px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 py-16  sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-center md:text-left md:max-w-2xl">
               <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">Scholarships</h1>
@@ -150,10 +150,51 @@ export default function Scholarships() {
         </div>
       </div>
 
+      {/* How to Apply Section - Moved here */}
+      <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+        <div className="bg-gray-50 rounded-lg p-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">How to Apply</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="flex flex-col items-center text-center">
+              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-school-red text-white text-lg font-bold mb-4">
+                1
+              </div>
+              <h3 className="text-lg font-medium text-gray-900 mb-2">Check Eligibility</h3>
+              <p className="text-gray-600">
+                Review the requirements for each scholarship to determine which ones you qualify for.
+              </p>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-school-red text-white text-lg font-bold mb-4">
+                2
+              </div>
+              <h3 className="text-lg font-medium text-gray-900 mb-2">Complete Application</h3>
+              <p className="text-gray-600">
+                Fill out the online application form and submit all required documentation.
+              </p>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-school-red text-white text-lg font-bold mb-4">
+                3
+              </div>
+              <h3 className="text-lg font-medium text-gray-900 mb-2">Submit by Deadline</h3>
+              <p className="text-gray-600">
+                Ensure your application is submitted by April 15 to be considered for the current year.
+              </p>
+            </div>
+          </div>
+          <div className="mt-8 text-center">
+            <Link href="/scholarships/apply" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-school-red hover:bg-red-800">
+              View Application Process
+            </Link>
+          </div>
+        </div>
+      </div>
+
       {/* Scholarship Information */}
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="prose prose-red prose-lg mx-auto mb-16">
-          <h2>Funding Tomorrow's Leaders</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Funding Tomorrow's Leaders</h2>
           <p>
             The Fredericktown Alumni Association is proud to offer scholarships to deserving students 
             who demonstrate academic excellence, leadership, and community involvement. 
@@ -166,7 +207,7 @@ export default function Scholarships() {
             and financial need. We believe in investing in the future of our community by supporting 
             the educational aspirations of our young people.
           </p>
-          <h3>Application Process</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">Application Process</h3>
           <p>
             Applications for scholarships typically open in January and close in April of each year. 
             Students are notified of decisions by early May, and scholarships are awarded at the 
@@ -301,45 +342,6 @@ export default function Scholarships() {
                 Create a Named Scholarship
               </a>
             </div>
-          </div>
-        </div>
-
-        {/* How to Apply Section */}
-        <div className="mt-16 bg-gray-50 rounded-lg p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">How to Apply</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="flex flex-col items-center text-center">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-school-red text-white text-lg font-bold mb-4">
-                1
-              </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Check Eligibility</h3>
-              <p className="text-gray-600">
-                Review the requirements for each scholarship to determine which ones you qualify for.
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-school-red text-white text-lg font-bold mb-4">
-                2
-              </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Complete Application</h3>
-              <p className="text-gray-600">
-                Fill out the online application form and submit all required documentation.
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-school-red text-white text-lg font-bold mb-4">
-                3
-              </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Submit by Deadline</h3>
-              <p className="text-gray-600">
-                Ensure your application is submitted by April 15 to be considered for the current year.
-              </p>
-            </div>
-          </div>
-          <div className="mt-8 text-center">
-            <Link href="/scholarships/apply" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-school-red hover:bg-red-800">
-              Start Application Process
-            </Link>
           </div>
         </div>
 
