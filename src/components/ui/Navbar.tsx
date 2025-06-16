@@ -60,11 +60,19 @@ export default function Navbar() {
             <Link href="/donors" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
               Donors
             </Link>
-            <Link href="/yearbooks" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
+            <Link href="https://fredericktown.touchpros.com/FlipbookYear?tabid=7974" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
               Yearbooks
             </Link>
             <a 
-              href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
+              href="https://knoxcf.awardspring.com/Home/Scholarships" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="ml-4 inline-flex items-center justify-center px-5 py-2.5 border border-transparent text-sm font-bold rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+            >
+              Apply Now
+            </a>
+            <a 
+              href="https://knoxcf.awardspring.com/Home/Scholarships" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="ml-4 inline-flex items-center justify-center px-5 py-2.5 border border-gray-300 text-sm font-bold rounded-md text-white bg-gray-700 hover:bg-gray-600 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
@@ -75,6 +83,14 @@ export default function Navbar() {
           
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
+            <a 
+              href="https://knoxcf.org/how-to-apply/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="mr-2 inline-flex items-center justify-center px-3 py-1.5 border border-transparent text-sm font-bold rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-md"
+            >
+              Apply
+            </a>
             <a 
               href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
               target="_blank" 
@@ -128,6 +144,14 @@ export default function Navbar() {
             <Link href="/yearbooks" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
               Yearbooks
             </Link>
+            <a 
+              href="https://knoxcf.org/how-to-apply/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="block px-3 py-3 mt-2 text-center rounded-md text-base font-bold bg-blue-600 text-white hover:bg-blue-700 shadow-md"
+            >
+              Apply Now
+            </a>
             <a 
               href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
               target="_blank" 

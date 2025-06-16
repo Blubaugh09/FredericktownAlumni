@@ -60,12 +60,22 @@ export default function Home() {
           <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200">
             <div className="prose prose-red prose-lg max-w-none">
               <p>
-                FHS Alumni Scholarship Fund was created with the goal of assisting FHS graduates reach their dreams by attending a post-secondary institution.
+              FHS Alumni Scholarship Fund was created with the goal of assisting FHS graduates reach their dreams by attending a post-secondary institution.
+
+Our Motto “Freddies helping Freddies” describes this effort.
+
+Our goal is “More and larger Scholarships – every year!”
+
+All Scholarships are awarded or renewed each year.
+
+Students apply through the FHS Guidance Office.
+
+The Fund is professionally managed by the Knox County Foundation; donations are tax deductible.
               </p>
               
               <div className="my-6 p-4 bg-gray-50 border-l-4 border-school-red rounded">
                 <p className="text-xl font-medium italic text-gray-800">
-                  "Freddies helping Freddies" describes this effort.
+                  "Freddies helping Freddies" 
                 </p>
               </div>
               
@@ -241,18 +251,23 @@ export default function Home() {
       {/* Call To Action */}
       <section className="bg-school-red text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-6">Support the Next Generation</h2>
-          <p className="text-xl max-w-3xl mx-auto mb-8">
-            Your donation helps provide scholarships and resources for Fredericktown students.
+          <h2 className="text-3xl font-bold mb-6">Support Our Mission</h2>
+          <p className="text-lg max-w-3xl mx-auto mb-8">
+            Your contribution helps ensure that we can continue supporting Fredericktown students 
+            and preserving our shared history for generations to come.
           </p>
           <a 
             href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
             target="_blank"
-            rel="noopener noreferrer" 
-            className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-lg font-bold rounded-md text-white bg-gray-700 hover:bg-gray-600 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 animate-pulse-subtle"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-school-red bg-white hover:bg-gray-100 mb-6"
           >
             Donate Now
           </a>
+          <div className="mt-6 pt-4 border-t border-white/30 max-w-3xl mx-auto">
+            <p className="text-lg mb-2">Alternatively, make your check payable to FHS ALUMNI SCHOLARSHIP FUND.</p>
+            <p className="text-lg">Mail to: Knox County Foundation, P.O. Box 309, Mount Vernon, OH 43050-0309.</p>
+          </div>
         </div>
       </section>
     </div>

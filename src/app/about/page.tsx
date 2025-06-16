@@ -166,87 +166,150 @@ export default function About() {
         </div>
       </div>
 
-      {/* History Section */}
+      {/* Fundraising Committee Section */}
       <div className="bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center mb-12">
-            Our History
-          </h2>
-          <div className="prose prose-red prose-lg mx-auto text-gray-900">
-            <p className="text-gray-900">
-              Founded in 1965, the Fredericktown Alumni Association has been serving graduates and the 
-              community for over five decades. What began as a small group of dedicated alumni has grown 
-              into an organization that spans generations.
-            </p>
-            <p className="text-gray-900">
-              Our first scholarship was awarded in 1968, and since then, we have provided hundreds of 
-              students with financial assistance to pursue their educational goals. The association has 
-              evolved over the years, expanding its programs and reach while maintaining its core mission 
-              of supporting education and connecting alumni.
-            </p>
-            <p className="text-gray-900">
-              Today, we continue to build on this foundation through various initiatives, including our 
-              scholarship program, community events, and historical preservation efforts. We are proud of 
-              our legacy and look forward to continuing our work for generations to come.
-            </p>
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+              Fundraising Committee
+            </h2>
+            <div className="h-1 w-20 bg-school-red mx-auto mt-4"></div>
+          </div>
+          
+          <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-8 border border-gray-200">
+            <div className="prose prose-red prose-lg mx-auto leading-relaxed">
+              <div className="space-y-4">
+                <p className="text-gray-900">
+                  The role of the Fundraising Committee is to make it easy and compelling for "Freddies to Help Freddies" to deliver on our goal of More and larger Scholarships – every year!
+                </p>
+                
+                <p className="text-gray-900">
+                  Committee members cultivate, educate, support, ask, answer, recognize, thank, market, publicize, record keep, and report among other activities.
+                </p>
+                
+                <p className="text-gray-900">
+                  If you have questions on anything to do with Scholarships or want to run a Class or special purpose campaign, you can count on the Fundraising Committee for information, materials and advice.
+                </p>
+                
+                <p className="text-gray-900">
+                  Campaigns are typically run by Class leaders for their Class Reunions, but we also support special purpose campaigns, such as, Gold Star Parents and Class of 1959 honoring Julie Cochran Rogers.
+                </p>
+              </div>
+              
+              <div className="my-6 p-5 bg-gray-50 rounded-lg border-l-4 border-school-red">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">JOIN OUR TEAM!</h3>
+                <p className="text-gray-900">
+                  The Fundraising Team is always looking to strengthen our numbers. There is much work to do besides "asking" for a donation, so don't let that stop you. If you love the concept of "Freddies Helping Freddies", there is a role for you. We let Team members focus on what they like to do and can do well, we share the load, we have very few meetings (all over the phone), we communicate constantly electronically, we have fun, we do good work, and we make a difference. You do not need to live locally to be on our Team (few do). If you want to join our Team or need help running your own campaign, just contact any member of the Fundraising Team.
+                </p>
+              </div>
+              
+              <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Fundraising Committee Members:</h3>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-semibold mb-1">Bonita Leedy '60 Birkel</p>
+                  <p className="text-gray-700">bleedy2@gmail.com</p>
+                  <p className="text-gray-700">864-313-7090</p>
+                </div>
+                
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-semibold mb-1">Roger '61 & Jeannine Weller '61 Davis</p>
+                  <p className="text-gray-700">rfdavis12@hotmail.com</p>
+                  <p className="text-gray-700">j9mdavis@gmail.com</p>
+                  <p className="text-gray-700">727-580-0740</p>
+                </div>
+                
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-semibold mb-1">Malcolm R. Shrimplin '88</p>
+                  <p className="text-gray-700">malcolm.shrimplin@me.com</p>
+                  <p className="text-gray-700">480-399-5388</p>
+                </div>
+                
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-semibold mb-1">Chris Fearn '67 Well</p>
+                  <p className="text-gray-700">chriswell2249@gmail.com</p>
+                  <p className="text-gray-700">740-501-1288</p>
+                </div>
+                
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-semibold mb-1">Betty Lozier '54 Weller</p>
+                  <p className="text-gray-700">Bettyweller36@hotmail.com</p>
+                  <p className="text-gray-700">740-501-3349</p>
+                </div>
+              </div>
+              
+              <div className="mt-8 p-6 bg-gray-50 rounded-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Fund Management</h3>
+                <p className="font-semibold mb-1">Knox County Foundation</p>
+                <p className="text-gray-700">Jeffrey Scott, Executive Director</p>
+                <p className="text-gray-700">Phone: 740.392.3270</p>
+                <p className="text-gray-700">www.knoxcf.org</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Leadership Section */}
+      {/* Scholarship Committee Section */}
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
-        <div className="text-center">
+        <div className="text-center mb-10">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Leadership
+            Scholarship Committee
           </h2>
-          <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-900 sm:mt-4">
-            Meet the dedicated individuals guiding our organization.
-          </p>
+          <div className="h-1 w-20 bg-school-red mx-auto mt-4"></div>
         </div>
-        <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {/* Board Member 1 */}
-          <div className="bg-white rounded-lg shadow-sm overflow-hidden">
-            <div className="px-6 py-8">
-              <div className="flex justify-center">
-                <div className="h-24 w-24 rounded-full bg-gray-300 mb-4"></div>
-              </div>
-              <div className="text-center">
-                <h3 className="text-lg font-medium text-gray-900">Jane Smith</h3>
-                <p className="text-sm text-school-red mb-2">President</p>
-                <p className="text-sm text-gray-900">Class of 1985</p>
-              </div>
+        
+        <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-8 border border-gray-200">
+          <div className="prose prose-red prose-lg mx-auto leading-relaxed">
+            <div className="space-y-4">
+              <p className="text-gray-900">
+                The role of the Scholarship Committee is to encourage students to apply for the available scholarships and select the awardees who best fit the criteria of the available scholarships.
+              </p>
+              
+              <p className="text-gray-900">
+                Committee members independently review all applications and meet in person to confidentially discuss and select the awardees; always a difficult assignment. Because of the limited number of FHS Alumni Scholarships, FHS students are also encouraged to apply for scholarships available from the Knox County Foundation.
+              </p>
+              
+              <p className="text-gray-900">
+                The Scholarship Committee members are the current Officers of the FHS Alumni Association and other community volunteers. If you are interested in volunteering to join the Scholarship Committee, please contact Jill Spearman Macklin: <a href="mailto:jspear10@hotmail.com" className="text-school-red hover:text-red-800">jspear10@hotmail.com</a>.
+              </p>
+              
+              <p className="text-gray-900">
+                The Scholarship Awardees are announced each year at the FHS Senior Awards Night held in May.
+              </p>
             </div>
-          </div>
-          
-          {/* Board Member 2 */}
-          <div className="bg-white rounded-lg shadow-sm overflow-hidden">
-            <div className="px-6 py-8">
-              <div className="flex justify-center">
-                <div className="h-24 w-24 rounded-full bg-gray-300 mb-4"></div>
+            
+            <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Current members of the Scholarship Committee:</h3>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="bg-gray-50 p-4 rounded-lg text-center">
+                <p className="font-semibold text-gray-900">Jill Spearman Macklin</p>
               </div>
-              <div className="text-center">
-                <h3 className="text-lg font-medium text-gray-900">John Johnson</h3>
-                <p className="text-sm text-school-red mb-2">Vice President</p>
-                <p className="text-sm text-gray-900">Class of 1992</p>
+              
+              <div className="bg-gray-50 p-4 rounded-lg text-center">
+                <p className="font-semibold text-gray-900">Betty Lozier Weller</p>
               </div>
-            </div>
-          </div>
-          
-          {/* Board Member 3 */}
-          <div className="bg-white rounded-lg shadow-sm overflow-hidden">
-            <div className="px-6 py-8">
-              <div className="flex justify-center">
-                <div className="h-24 w-24 rounded-full bg-gray-300 mb-4"></div>
+              
+              <div className="bg-gray-50 p-4 rounded-lg text-center">
+                <p className="font-semibold text-gray-900">Chris Fearn Well</p>
               </div>
-              <div className="text-center">
-                <h3 className="text-lg font-medium text-gray-900">Robert Williams</h3>
-                <p className="text-sm text-school-red mb-2">Treasurer</p>
-                <p className="text-sm text-gray-900">Class of 1978</p>
+              
+              <div className="bg-gray-50 p-4 rounded-lg text-center">
+                <p className="font-semibold text-gray-900">John Wareham</p>
+              </div>
+              
+              <div className="bg-gray-50 p-4 rounded-lg text-center">
+                <p className="font-semibold text-gray-900">Tina Bowers Doup</p>
+              </div>
+              
+              <div className="bg-gray-50 p-4 rounded-lg text-center">
+                <p className="font-semibold text-gray-900">Kelly Goff Castle</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+   
     </div>
   );
 } 

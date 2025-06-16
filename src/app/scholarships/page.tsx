@@ -150,154 +150,151 @@ export default function Scholarships() {
         </div>
       </div>
 
-      {/* How to Apply Section - Moved here */}
+      {/* How to Apply Section */}
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="bg-gray-50 rounded-lg p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">How to Apply</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="flex flex-col items-center text-center">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-school-red text-white text-lg font-bold mb-4">
-                1
-              </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Check Eligibility</h3>
-              <p className="text-gray-600">
-                Review the requirements for each scholarship to determine which ones you qualify for.
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-school-red text-white text-lg font-bold mb-4">
-                2
-              </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Complete Application</h3>
-              <p className="text-gray-600">
-                Fill out the online application form and submit all required documentation.
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-school-red text-white text-lg font-bold mb-4">
-                3
-              </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Submit by Deadline</h3>
-              <p className="text-gray-600">
-                Ensure your application is submitted by April 15 to be considered for the current year.
-              </p>
-            </div>
+          <div className="space-y-6 text-gray-900">
+            <p className="text-lg">
+              The Knox County Foundation annually distributes more than $1 million in college scholarships through various competitive application processes. The Universal Scholarship Application is available each January at <a href="https://knoxcf.awardspring.com" target="_blank" rel="noopener noreferrer" className="text-school-red hover:text-red-800 font-medium">https://knoxcf.awardspring.com</a> with a deadline of March 1. 
+            </p>
+            <p className="text-lg">
+              The Career and Technical Education Scholarship Application is available year-round with deadlines of January 15th, April 15th, July 15th, and October 15th. The Vaughn Wiester Music Scholarship deadline is March 1 and students must apply through the Universal Scholarship.
+            </p>
+            <p className="text-lg">
+              Traditional students, as well as adults returning to college, are encouraged to apply. For further information or questions about the application process, please see our FAQs page or contact Kara Ernsberger, Program Coordinator, at 740-392-3270 or <a href="mailto:kara@knoxcf.org" className="text-school-red hover:text-red-800 font-medium">kara@knoxcf.org</a>.
+            </p>
           </div>
           <div className="mt-8 text-center">
-            <Link href="/scholarships/apply" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-school-red hover:bg-red-800">
-              View Application Process
-            </Link>
+            <a 
+              href="https://knoxcf.awardspring.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+            >
+              Apply Now
+            </a>
           </div>
         </div>
       </div>
 
       {/* Scholarship Information */}
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
-        <div className="prose prose-red prose-lg mx-auto mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Funding Tomorrow's Leaders</h2>
-          <p>
-            The Fredericktown Alumni Association is proud to offer scholarships to deserving students 
-            who demonstrate academic excellence, leadership, and community involvement. 
-            Through the generous donations of our alumni and supporters, we are able to provide financial 
-            assistance to help students pursue their educational goals.
-          </p>
-          <p>
-            Each year, our scholarship committee reviews applications and selects recipients based on 
-            a combination of academic achievement, extracurricular activities, community service, 
-            and financial need. We believe in investing in the future of our community by supporting 
-            the educational aspirations of our young people.
-          </p>
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">Application Process</h3>
-          <p>
-            Applications for scholarships typically open in January and close in April of each year. 
-            Students are notified of decisions by early May, and scholarships are awarded at the 
-            annual graduation ceremony.
-          </p>
+        <div className="max-w-4xl mx-auto mb-16 bg-white p-8 rounded-lg shadow-sm border border-gray-100">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Universal Scholarship Application</h2>
+          <div className="space-y-6">
+            <p className="text-lg text-gray-900">
+              The Universal Scholarship Application is for applicants attending or planning to attend a fully-accredited two-year or four-year post-secondary institution, or those enrolled in medical school. Students must be enrolled full-time to receive a scholarship.
+            </p>
+            
+            <div className="mt-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">1. Application Process</h3>
+              <div className="space-y-4">
+                <p className="text-lg text-gray-900">
+                  With the exception of the Ariel Corporation Scholarship, all students must complete the Universal Scholarship Application at <a href="https://knoxcf.awardspring.com" target="_blank" rel="noopener noreferrer" className="text-school-red hover:text-red-800 font-medium">https://knoxcf.awardspring.com</a>. This application allows you to be considered for multiple scholarships by automatically matching you to funds for which you are eligible.
+                </p>
+                <p className="text-lg text-gray-900">
+                  This single application will determine if you qualify for one or more of the 150+ individual scholarship funds at the Knox County Foundation. The online application should be filled out as completely and thoroughly as possible. Incomplete or late applications will not be considered.
+                </p>
+                <p className="text-lg text-gray-900">
+                  Before completing the application, students should read the Requirements & Instructions as well as the Applicant Guide.
+                </p>
+              </div>
+            </div>
+            
+            <div className="mt-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">2. Renewable Scholarships</h3>
+              <p className="text-lg text-gray-900">
+                A few Foundation scholarships are renewable for more than one year. In order to maintain a renewable scholarship, students will need to complete a follow-up and upload a current transcript via the online Dashboard in May each year.
+              </p>
+            </div>
+            
+            <div className="mt-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">3. Requirements</h3>
+              <ul className="list-disc pl-5 space-y-3 text-lg text-gray-900">
+                <li><strong>Residency:</strong> All applicants must be a U.S. Citizen or eligible non-citizen. Most, but not all, scholarships require applicants to be a resident of Knox County, Ohio.</li>
+                <li><strong>E-mail Address:</strong> Every student will need to create an account through AwardSpring with an e-mail address they will have access to after high school/college graduation (ie: a personal e-mail address, not a school e-mail).</li>
+                <li><strong>Transcript:</strong> Current High School Seniors and College Freshmen are required to submit their High School Transcript. High School transcripts must be requested from their respective guidance counselor via AwardSpring (instructions are within the application). Current college applicants must submit their most up-to-date college transcript as a PDF.</li>
+                <li><strong>Personal Statement:</strong> All applicants must submit a 250-word personal statement. For suggestions on topics, please see the FAQs page.</li>
+                <li><strong>FAFSA:</strong> While not a requirement for all, a majority of the scholarship funds have a financial need component. To be considered for any of these scholarships, students must upload a copy of their FAFSA Submission Summary showing the Student Aid Index (SAI).</li>
+              </ul>
+            </div>
+            
+            <div className="mt-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">4. The AwardSpring Website</h3>
+              <div className="space-y-4">
+                <p className="text-lg text-gray-900">
+                  For a full tutorial on using the scholarship site, please review the Applicant Guide.
+                </p>
+                <p className="text-lg text-gray-900">
+                  New users will create a username by clicking the "Register" button while returning users should log-in using the e-mail address used when they first registered.
+                </p>
+              </div>
+            </div>
+            
+            <div className="mt-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Career and Technical Education Scholarship Application</h3>
+              <p className="text-lg text-gray-900">
+                For information on Vocational Scholarships, please visit the Career and Technical Education (CTE) Scholarship Application page. CTE Scholarships are provided to students who are attending, or will attend, an occupational training program of two-years or less at an accredited vocational school, technical school, community college, or junior college.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <h2 className="text-3xl font-bold text-center mb-12">Available Scholarships</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">Scholarship Categories</h2>
         
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {/* Scholarship 1 */}
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
+          {/* Universal Scholarship */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
             <div className="px-6 py-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Alumni Merit Scholarship</h3>
-              <div className="flex items-center mb-4">
-                <div className="text-lg font-bold text-school-red">$2,500</div>
-                <span className="mx-2 text-gray-500">•</span>
-                <div className="text-sm text-gray-500">Annual</div>
-              </div>
-              <p className="text-gray-600 mb-6">
-                Awarded to a graduating senior who demonstrates academic excellence, leadership, 
-                and involvement in extracurricular activities.
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Universal Scholarship</h3>
+              <p className="text-gray-900 mb-6">
+                For students attending or planning to attend a fully-accredited two-year or four-year post-secondary institution, or those enrolled in medical school. Students must be enrolled full-time to receive a scholarship.
               </p>
-              <h4 className="text-lg font-semibold mb-2">Eligibility:</h4>
-              <ul className="list-disc pl-5 mb-6 text-gray-600">
-                <li>Minimum GPA of 3.5</li>
-                <li>Acceptance to an accredited college or university</li>
-                <li>Participation in at least two extracurricular activities</li>
-                <li>Demonstrated leadership qualities</li>
+              <h4 className="text-lg font-semibold mb-2">Key Information:</h4>
+              <ul className="list-disc pl-5 mb-6 text-gray-900">
+                <li>Available each January</li>
+                <li>Deadline: March 1</li>
+                <li>Single application for 150+ scholarship funds</li>
+                <li>Automatic matching to eligible scholarships</li>
+                <li>Online application through AwardSpring</li>
               </ul>
               <div className="mt-auto">
-                <Link href="/scholarships/apply" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800">
+                <a
+                  href="https://knoxcf.awardspring.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                >
                   Apply Now
-                </Link>
+                </a>
               </div>
             </div>
           </div>
           
-          {/* Scholarship 2 */}
+          {/* Career and Technical Education Scholarship */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
             <div className="px-6 py-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Community Service Scholarship</h3>
-              <div className="flex items-center mb-4">
-                <div className="text-lg font-bold text-school-red">$1,500</div>
-                <span className="mx-2 text-gray-500">•</span>
-                <div className="text-sm text-gray-500">Annual</div>
-              </div>
-              <p className="text-gray-600 mb-6">
-                Awarded to a student who has made significant contributions to the community 
-                through volunteer service and demonstrates a commitment to helping others.
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Career & Technical Education Scholarship</h3>
+              <p className="text-gray-900 mb-6">
+                For students who are attending, or will attend, an occupational training program of two-years or less at an accredited vocational school, technical school, community college, or junior college.
               </p>
-              <h4 className="text-lg font-semibold mb-2">Eligibility:</h4>
-              <ul className="list-disc pl-5 mb-6 text-gray-600">
-                <li>Minimum GPA of 3.0</li>
-                <li>Acceptance to an accredited college, university, or vocational program</li>
-                <li>Minimum of 100 hours of documented community service</li>
-                <li>Letter of recommendation from a community service supervisor</li>
+              <h4 className="text-lg font-semibold mb-2">Key Information:</h4>
+              <ul className="list-disc pl-5 mb-6 text-gray-900">
+                <li>Available year-round</li>
+                <li>Quarterly deadlines: January 15, April 15, July 15, October 15</li>
+                <li>Supports vocational and technical training</li>
+                <li>Separate application process from Universal Scholarship</li>
               </ul>
               <div className="mt-auto">
-                <Link href="/scholarships/apply" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800">
+                <a
+                  href="https://knoxcf.org/how-to-apply/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                >
                   Apply Now
-                </Link>
-              </div>
-            </div>
-          </div>
-          
-          {/* Scholarship 3 */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
-            <div className="px-6 py-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">STEM Excellence Scholarship</h3>
-              <div className="flex items-center mb-4">
-                <div className="text-lg font-bold text-school-red">$2,000</div>
-                <span className="mx-2 text-gray-500">•</span>
-                <div className="text-sm text-gray-500">Annual</div>
-              </div>
-              <p className="text-gray-600 mb-6">
-                Awarded to a student pursuing a degree in science, technology, engineering, or 
-                mathematics who demonstrates academic achievement and passion for their field.
-              </p>
-              <h4 className="text-lg font-semibold mb-2">Eligibility:</h4>
-              <ul className="list-disc pl-5 mb-6 text-gray-600">
-                <li>Minimum GPA of 3.3</li>
-                <li>Acceptance to an accredited college or university in a STEM program</li>
-                <li>Completed at least 3 advanced STEM courses in high school</li>
-                <li>Participation in STEM-related extracurricular activities</li>
-              </ul>
-              <div className="mt-auto">
-                <Link href="/scholarships/apply" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800">
-                  Apply Now
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -307,15 +304,17 @@ export default function Scholarships() {
         <div className="mt-20">
           <h2 className="text-3xl font-bold text-center mb-8">Named Scholarships</h2>
           <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 mb-10 px-8 py-10">
-            <div className="prose prose-red prose-lg mx-auto mb-10">
-              <p className="text-gray-800">
-                A Donor or a Group of Donors making gifts cumulating to $10,000 or greater have an 
-                opportunity to "Name" a scholarship.
-              </p>
-              <p className="text-gray-800">
-                A "Named Scholarship" is a great way to permanently recognize a special person or group 
-                of people with a Scholarship that will be awarded every year—forever!
-              </p>
+            <div className="max-w-3xl mx-auto mb-10">
+              <div className="space-y-4">
+                <p className="text-lg text-gray-900">
+                  A Donor or a Group of Donors making gifts cumulating to $10,000 or greater have an 
+                  opportunity to "Name" a scholarship.
+                </p>
+                <p className="text-lg text-gray-900">
+                  A "Named Scholarship" is a great way to permanently recognize a special person or group 
+                  of people with a Scholarship that will be awarded every year—forever!
+                </p>
+              </div>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -348,13 +347,17 @@ export default function Scholarships() {
         {/* Contact Section */}
         <div className="mt-16 text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Questions?</h2>
-          <p className="text-gray-600 mb-6">
-            If you have any questions about our scholarships or the application process, 
-            please contact our Scholarship Committee.
+          <p className="text-lg text-gray-900 mb-6">
+            If you have any questions about scholarships or the application process, 
+            please contact the Knox County Foundation.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="mailto:scholarships@fredericktownalumni.org" className="text-school-red hover:text-red-800 font-medium">
-              scholarships@fredericktownalumni.org
+            <a href="mailto:kara@knoxcf.org" className="text-school-red hover:text-red-800 font-medium">
+              kara@knoxcf.org
+            </a>
+            <span className="hidden sm:inline text-gray-400">|</span>
+            <a href="tel:7403923270" className="text-school-red hover:text-red-800 font-medium">
+              740-392-3270
             </a>
             <span className="hidden sm:inline text-gray-400">|</span>
             <a 

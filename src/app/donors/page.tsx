@@ -40,18 +40,21 @@ export default function Donors() {
       {/* Donor Information */}
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="prose prose-red prose-lg mx-auto mb-16">
-          <h2>Make a Difference</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Make a Difference</h2>
+          <br />
           <p className="text-gray-800">
             The Fredericktown Alumni Association relies on the generosity of donors like you to fund 
             scholarships, maintain alumni connections, and support educational initiatives. Your 
             contribution, regardless of size, makes a significant impact on the lives of students 
             and helps preserve the legacy of Fredericktown.
           </p>
+          <br />
           <p className="text-gray-800">
             All donations to the Fredericktown Alumni Association are tax-deductible and go directly 
             to supporting our mission. Our board of directors ensures that your contributions are 
             used efficiently and effectively to benefit students and alumni.
           </p>
+          <br />
           <p className="text-gray-800 font-medium mt-6">
             Our Donors are the "Freddies Helping Freddies" who are changing lives of the next generations 
             of Freddies with their generosity. Every gift large or small makes a difference and is 
@@ -203,26 +206,84 @@ export default function Donors() {
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-12">FHS Class Legacy</h2>
           <div className="bg-white rounded-lg shadow-md p-8">
-            <p className="text-gray-800 mb-8 text-center max-w-3xl mx-auto">
-              Many graduating classes choose to create a collective legacy through donations to the 
-              Fredericktown Alumni Association. Below we recognize the classes that have made significant contributions.
-            </p>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {/* Sample class donations - these would be replaced with actual data */}
-              {[
-                { name: "Class of 1961", amount: "Platinum Founder" },
-                { name: "Class of 1959", amount: "Gold Founder" },
-                { name: "Class of 1958", amount: "Gold Founder" },
-                { name: "Class of 1947", amount: "Silver Founder" },
-                { name: "Class of 1975", amount: "Founder" },
-                { name: "Class of 1965", amount: "Founder" }
-              ].map((classItem, index) => (
-                <div key={index} className="bg-gray-50 p-5 rounded-lg">
-                  <h4 className="font-bold text-lg text-school-red mb-2">{classItem.name}</h4>
-                  <p className="text-gray-700">{classItem.amount}</p>
+            <div className="prose prose-red prose-lg max-w-none">
+              <p className="text-gray-800 mb-6">
+                With time and experience, most Freddie grads come to appreciate what a blessing it was to grow up in Fredericktown and receive their education in the local school system. These grads want to show their appreciation to the people and environment that made their positive experiences possible.
+              </p>
+              
+              <p className="text-gray-800 mb-6">
+                To show their gratitude, many Freddies decide to team up with their Classmates, on the occasions of their Class Reunions, to do something special by running a <strong>"Freddies Helping Freddies"</strong> campaign for their Class.
+              </p>
+              
+              <div className="bg-gray-50 border-l-4 border-school-red p-6 my-8 rounded-r-lg">
+                <p className="text-gray-800 mb-4">
+                  These Class Reunion campaigns typically set their goals on <strong>"100% participation"</strong> rather than the "donation amount"; usually suggesting an individual gift corresponding to their graduation year—e.g.;
+                </p>
+                <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
+                  <li><strong>$19.61</strong> for the Class of 1961</li>
+                  <li><strong>$19.62</strong> for Class of 1962</li>
+                  <li>And so forth...</li>
+                </ul>
+                <p className="text-gray-800 mt-4">
+                  Larger gifts are encouraged, of course, but the primary goal is maximum teamwork with <strong>"100% participation"</strong> being the <em>"Holy Grail"</em>.
+                </p>
+              </div>
+              
+              <p className="text-gray-800 mb-6">
+                Classes that run these campaigns are always surprised by the power of their teamwork and the amount they raise. Class members always say, <em>"this is the best thing we have ever done as a class - we totally bonded to our common goal!"</em>.
+              </p>
+              
+              <p className="text-gray-800 mb-6">
+                As more and more Classes began to run campaigns, a scorecard was created to promote communication, generate enthusiasm and establish friendly competition among the Classes. That scorecard became known as the <strong>"Class Challenge"</strong>.
+              </p>
+              
+              <div className="bg-school-red text-white p-6 rounded-lg my-8">
+                <h3 className="text-xl font-bold mb-4 text-center">Named Scholarships from Class Challenge</h3>
+                <p className="text-center mb-6">
+                  To date the Class Challenge has resulted in four "Named Scholarships":
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="bg-white/20 p-4 rounded-lg text-center">
+                    <h4 className="font-bold">Class of 1947</h4>
+                    <p className="text-sm mt-1">Named Scholarship</p>
+                  </div>
+                  <div className="bg-white/20 p-4 rounded-lg text-center">
+                    <h4 className="font-bold">Class of 1958</h4>
+                    <p className="text-sm mt-1">Named Scholarship</p>
+                  </div>
+                  <div className="bg-white/20 p-4 rounded-lg text-center">
+                    <h4 className="font-bold">Class of 1959</h4>
+                    <p className="text-sm mt-1">Named Scholarship</p>
+                  </div>
+                  <div className="bg-white/20 p-4 rounded-lg text-center">
+                    <h4 className="font-bold">Class of 1961</h4>
+                    <p className="text-sm mt-1">Named Scholarship</p>
+                  </div>
                 </div>
-              ))}
+              </div>
+              
+              <p className="text-gray-800 mb-6">
+                Not even one of these Classes ever thought their Class would raise more than $10,000 and be able to Name a scholarship.
+              </p>
+              
+              <p className="text-gray-800 mb-8">
+                But just by trying, amazing things began to happen, proving once again the Fredericktown motto <strong><em>"It can be done in a small town"</em></strong>.
+              </p>
+              
+              <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-school-red mb-3">For Class Leaders</h3>
+                <p className="text-gray-800">
+                  Class leaders that decide to run a <strong>"Freddies Helping Freddies"</strong> campaign as a part of their Class Reunion experience, can count on the Fundraising Committee for information, materials and advice.
+                </p>
+                <div className="mt-4">
+                  <a 
+                    href="mailto:contact@fredericktownalumni.org" 
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    Contact Fundraising Committee
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

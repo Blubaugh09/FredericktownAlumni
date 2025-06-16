@@ -30,12 +30,14 @@ export default function Funds() {
       {/* Funds Overview */}
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="prose prose-red prose-lg mx-auto mb-16">
-          <h2>Investing in Our Community's Future</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Investing in Our Community's Future</h2>
+          <br />
           <p className="text-gray-800">
             The Fredericktown Alumni Association manages several funds that support different aspects 
             of our mission. Each fund has a specific purpose and focus, allowing donors to direct their 
             contributions to the areas they are most passionate about.
           </p>
+          <br />
           <p className="text-gray-800">
             Our funds are carefully managed to ensure long-term sustainability while maximizing their 
             impact on current students and the community. The Alumni Association Board of Directors 
@@ -85,105 +87,7 @@ export default function Funds() {
             </div>
           </div>
           
-          {/* Educational Enrichment Fund */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="md:flex">
-              <div className="md:flex-shrink-0 bg-school-red md:w-48 flex items-center justify-center py-6 md:py-0">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                </svg>
-              </div>
-              <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900">Educational Enrichment Fund</h3>
-                <p className="mt-4 text-gray-800">
-                  The Educational Enrichment Fund supports special educational projects, 
-                  teacher grants, and learning opportunities that go beyond the standard 
-                  curriculum. This fund helps provide resources for innovative teaching 
-                  methods, educational technology, field trips, and special programs that 
-                  enhance the learning experience for Fredericktown students.
-                </p>
-                <div className="mt-6 flex flex-wrap gap-4">
-                  <div className="bg-gray-100 px-4 py-2 rounded-full">
-                    <span className="text-sm font-medium text-gray-800">Fund Balance: $125,000</span>
-                  </div>
-                  <div className="bg-gray-100 px-4 py-2 rounded-full">
-                    <span className="text-sm font-medium text-gray-800">2023 Distributions: $12,000</span>
-                  </div>
-                  <div className="bg-gray-100 px-4 py-2 rounded-full">
-                    <span className="text-sm font-medium text-gray-800">Established: 1992</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* Alumni Engagement Fund */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="md:flex">
-              <div className="md:flex-shrink-0 bg-school-red md:w-48 flex items-center justify-center py-6 md:py-0">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-              </div>
-              <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900">Alumni Engagement Fund</h3>
-                <p className="mt-4 text-gray-800">
-                  The Alumni Engagement Fund supports activities that connect alumni with 
-                  each other and with current students. This fund helps finance reunions, 
-                  networking events, mentorship programs, and communication efforts that 
-                  maintain strong ties among alumni and between generations of Fredericktown 
-                  students.
-                </p>
-                <div className="mt-6 flex flex-wrap gap-4">
-                  <div className="bg-gray-100 px-4 py-2 rounded-full">
-                    <span className="text-sm font-medium text-gray-800">Fund Balance: $75,000</span>
-                  </div>
-                  <div className="bg-gray-100 px-4 py-2 rounded-full">
-                    <span className="text-sm font-medium text-gray-800">2023 Distributions: $8,500</span>
-                  </div>
-                  <div className="bg-gray-100 px-4 py-2 rounded-full">
-                    <span className="text-sm font-medium text-gray-800">Established: 2005</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* Historical Preservation Fund */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="md:flex">
-              <div className="md:flex-shrink-0 bg-school-red md:w-48 flex items-center justify-center py-6 md:py-0">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
-                </svg>
-              </div>
-              <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900">Historical Preservation Fund</h3>
-                <p className="mt-4 text-gray-800">
-                  The Historical Preservation Fund supports efforts to preserve and share 
-                  the history of Fredericktown schools and its alumni. This fund helps 
-                  digitize yearbooks, maintain archives, create historical displays, and 
-                  document the stories and achievements of past students and teachers.
-                </p>
-                <div className="mt-6 flex flex-wrap gap-4">
-                  <div className="bg-gray-100 px-4 py-2 rounded-full">
-                    <span className="text-sm font-medium text-gray-800">Fund Balance: $50,000</span>
-                  </div>
-                  <div className="bg-gray-100 px-4 py-2 rounded-full">
-                    <span className="text-sm font-medium text-gray-800">2023 Distributions: $5,000</span>
-                  </div>
-                  <div className="bg-gray-100 px-4 py-2 rounded-full">
-                    <span className="text-sm font-medium text-gray-800">Established: 2010</span>
-                  </div>
-                </div>
-                <div className="mt-6">
-                  <Link href="/yearbooks" className="text-school-red hover:text-red-800 font-medium">
-                    Explore our digitized yearbooks →
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
 
         {/* Scholarship Fund FAQ Section */}
@@ -403,10 +307,14 @@ export default function Funds() {
             href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-school-red bg-white hover:bg-gray-100"
+            className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-school-red bg-white hover:bg-gray-100 mb-6"
           >
             Donate Now
           </a>
+          <div className="mt-6 pt-4 border-t border-white/30 max-w-3xl mx-auto">
+            <p className="text-lg mb-2">Alternatively, make your check payable to FHS ALUMNI SCHOLARSHIP FUND.</p>
+            <p className="text-lg">Mail to: Knox County Foundation, P.O. Box 309, Mount Vernon, OH 43050-0309.</p>
+          </div>
         </div>
       </div>
     </div>
