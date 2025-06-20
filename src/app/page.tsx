@@ -62,9 +62,9 @@ export default function Home() {
               <p>
               FHS Alumni Scholarship Fund was created with the goal of assisting FHS graduates reach their dreams by attending a post-secondary institution.
 
-Our Motto “Freddies helping Freddies” describes this effort.
+Our Motto "Freddies helping Freddies" describes this effort.
 
-Our goal is “More and larger Scholarships – every year!”
+Our goal is "More and larger Scholarships – every year!"
 
 All Scholarships are awarded or renewed each year.
 
@@ -135,6 +135,119 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
         </div>
       </section>
 
+      {/* Fund Impact & Statistics */}
+      <section className="py-16 bg-white border-b-2 border-school-red">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Fund Impact & Growth</h2>
+            <div className="h-1 w-20 bg-school-red mx-auto"></div>
+          </div>
+          
+          {/* Main Fund Balance Highlight */}
+          <div className="bg-gradient-to-r from-school-red to-red-800 text-white rounded-lg p-8 mb-12 text-center">
+            <div className="max-w-4xl mx-auto">
+              <h3 className="text-2xl font-bold mb-4">FUND BALANCE</h3>
+              <div className="text-5xl md:text-6xl font-extrabold mb-4">$1,200,654</div>
+              <p className="text-xl mb-6">as of December 31, 2024</p>
+              <div className="bg-white/20 rounded-lg p-4 inline-block">
+                <p className="text-lg">
+                  <span className="font-semibold">Starting with a balance of just under $10,000 in 2015</span>
+                  <br />
+                  the Fund has grown to <span className="font-bold text-2xl">$1,200,654</span>
+                </p>
+              </div>
+              <p className="text-2xl font-bold mt-6">Thank you Donors!</p>
+            </div>
+          </div>
+
+          {/* 2024 Highlights Grid */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">2024 Highlights</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              
+              {/* Donor Contributions */}
+              <div className="bg-gray-50 rounded-lg p-6 text-center border-l-4 border-school-red">
+                <div className="text-3xl font-bold text-school-red mb-2">$86,000</div>
+                <p className="text-gray-700 font-medium">Donor Contributions</p>
+              </div>
+              
+              {/* Number of Donors */}
+              <div className="bg-gray-50 rounded-lg p-6 text-center border-l-4 border-school-red">
+                <div className="text-3xl font-bold text-school-red mb-2">190</div>
+                <p className="text-gray-700 font-medium">Number of Donors</p>
+              </div>
+              
+              {/* Market Returns */}
+              <div className="bg-gray-50 rounded-lg p-6 text-center border-l-4 border-school-red">
+                <div className="text-3xl font-bold text-school-red mb-2">$157,000</div>
+                <p className="text-gray-700 font-medium">Market Returns</p>
+                <p className="text-sm text-gray-600 mt-1">15.1%</p>
+              </div>
+              
+              {/* Scholarship Awards */}
+              <div className="bg-gray-50 rounded-lg p-6 text-center border-l-4 border-school-red">
+                <div className="text-3xl font-bold text-school-red mb-2">37</div>
+                <p className="text-gray-700 font-medium">Scholarship Awards</p>
+                <p className="text-sm text-gray-600 mt-1">Total of $46,000</p>
+              </div>
+              
+            </div>
+          </div>
+
+          {/* Additional Highlights */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+            
+            {/* New Scholarships */}
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                <svg className="h-6 w-6 text-school-red mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                </svg>
+                New Scholarships in 2025
+              </h4>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-school-red mr-2">•</span>
+                  Chris Fearn Well
+                </li>
+                <li className="flex items-start">
+                  <span className="text-school-red mr-2">•</span>
+                  Ed & Sandy Erick & Family
+                </li>
+                <li className="flex items-start">
+                  <span className="text-school-red mr-2">•</span>
+                  Class of 1974
+                </li>
+              </ul>
+            </div>
+            
+            {/* Total Impact */}
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                <svg className="h-6 w-6 text-school-red mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+                Scholarship Awards since 1994
+              </h4>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-school-red">123 Students</div>
+                <div className="text-2xl font-bold text-school-red">$249,700</div>
+                <p className="text-gray-600 mt-2">Total Impact Over 30 Years</p>
+              </div>
+            </div>
+            
+          </div>
+
+          {/* Motto */}
+          <div className="text-center">
+            <div className="inline-block bg-school-red text-white px-8 py-4 rounded-lg">
+              <p className="text-xl font-bold italic">"It can be done in a small town."</p>
+              <p className="text-sm mt-2 opacity-90">FHS Alumni Fundraising Committee</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Sections */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -195,6 +308,97 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
                   Learn more →
                 </Link>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Recent Updates & Highlights */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Recent Updates & Highlights</h2>
+            <div className="h-1 w-20 bg-school-red mx-auto"></div>
+            <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+              Stay connected with the latest news, achievements, and milestones from the Fredericktown Alumni community.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            
+            {/* Update 1: 2025 Scholarship Thank You Notes */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              <div className="h-2 bg-school-red"></div>
+              <div className="p-6">
+                <div className="flex items-center mb-3">
+                  <div className="flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-school-red" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+                    </svg>
+                  </div>
+                  <div className="ml-3">
+                    <span className="text-sm font-medium text-gray-500">June 2025</span>
+                  </div>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">2025 Scholarship Recipients Send Heartfelt Thank You Messages</h3>
+                <p className="text-gray-600 mb-4">
+                  This year's scholarship recipients have shared touching thank you notes expressing their gratitude for the support from the Fredericktown Alumni community.
+                </p>
+                <a 
+                  href="/pdfs/ThankYous/2025.pdf" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-school-red hover:text-red-800 font-medium text-sm flex items-center"
+                >
+                  Read Messages
+                  <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            {/* Update 2: 10th Annual Report */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              <div className="h-2 bg-school-red"></div>
+              <div className="p-6">
+                <div className="flex items-center mb-3">
+                  <div className="flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-school-red" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                  </div>
+                  <div className="ml-3">
+                    <span className="text-sm font-medium text-gray-500">May 2025</span>
+                  </div>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">FHS Alumni 10th Annual Scholarship Report Released</h3>
+                <p className="text-gray-600 mb-4">
+                  Our comprehensive 10th Annual Report showcases a decade of "Freddies Helping Freddies" - highlighting scholarship recipients, donor impact, and fund growth.
+                </p>
+                <a 
+                  href="/pdfs/Annual_Reports/2025-05-11 - FHS Alumni 10th Annual Report V19.pdf" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-school-red hover:text-red-800 font-medium text-sm flex items-center"
+                >
+                  View Report
+                  <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          
+          {/* View All Updates Link */}
+          <div className="text-center mt-12">
+            <div className="inline-flex items-center px-4 py-2 text-sm text-gray-600">
+              <svg className="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Updates are added periodically to keep our community informed
             </div>
           </div>
         </div>

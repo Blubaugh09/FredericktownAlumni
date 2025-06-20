@@ -88,7 +88,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:contact@fredericktownalumni.org" className="text-lg text-white hover:text-school-red transition-colors">
+                <a href="mailto:freddiealumni@yahoo.com" className="text-lg text-white hover:text-school-red transition-colors">
                   Contact Us
                 </a>
               </li>

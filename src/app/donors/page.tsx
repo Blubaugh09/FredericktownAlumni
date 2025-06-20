@@ -125,82 +125,7 @@ export default function Donors() {
           </div>
         </div>
 
-        {/* Donor Recognition */}
-        <div className="mb-16 bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 rounded-lg">
-          <h2 className="text-3xl font-bold text-center mb-8">Donor Recognition</h2>
-          <p className="text-center text-gray-800 max-w-3xl mx-auto mb-12">
-            There are two complementary classifications of Donor Recognition – Founding Donors and Annual Sustaining Donors.
-            In addition, gifts "In Memory of" or "In Honor of" are also recognized.
-          </p>
-          
-          <div className="max-w-5xl mx-auto mb-16">
-            <div className="bg-white rounded-lg shadow-md p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Founding Donors</h3>
-              <p className="text-gray-800 mb-6 text-center">
-                Donors who make gifts cumulating to $1,000 or greater during their lifetime are Founding Donors
-                listed on the Permanent Donor Recognition Plaque in the School Entrance Lobby and in the Annual Report.
-              </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-                <div className="bg-gray-50 p-5 rounded-lg text-center border-t-4 border-school-red">
-                  <h4 className="font-bold text-lg mb-2">Founder</h4>
-                  <p className="text-xl text-school-red font-semibold">$1,000+</p>
-                </div>
-                
-                <div className="bg-gray-50 p-5 rounded-lg text-center border-t-4 border-school-red">
-                  <h4 className="font-bold text-lg mb-2">Silver Founder</h4>
-                  <p className="text-xl text-school-red font-semibold">$2,500+</p>
-                </div>
-                
-                <div className="bg-gray-50 p-5 rounded-lg text-center border-t-4 border-school-red">
-                  <h4 className="font-bold text-lg mb-2">Gold Founder</h4>
-                  <p className="text-xl text-school-red font-semibold">$5,000+</p>
-                </div>
-                
-                <div className="bg-gray-50 p-5 rounded-lg text-center border-t-4 border-school-red">
-                  <h4 className="font-bold text-lg mb-2">Platinum Founder</h4>
-                  <p className="text-xl text-school-red font-semibold">$10,000+</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="max-w-5xl mx-auto">
-            <div className="bg-white rounded-lg shadow-md p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Annual Sustaining Donors</h3>
-              <p className="text-gray-800 mb-6 text-center">
-                All gifts made during the year are listed in the Alumni Banquet Program at the following levels:
-              </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-8">
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <h4 className="font-bold mb-2">Freddie</h4>
-                  <p className="text-school-red font-semibold">&lt;$100</p>
-                </div>
-                
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <h4 className="font-bold mb-2">Century</h4>
-                  <p className="text-school-red font-semibold">$100+</p>
-                </div>
-                
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <h4 className="font-bold mb-2">Silver</h4>
-                  <p className="text-school-red font-semibold">$250+</p>
-                </div>
-                
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <h4 className="font-bold mb-2">Gold</h4>
-                  <p className="text-school-red font-semibold">$500+</p>
-                </div>
-                
-                <div className="bg-gray-50 p-4 rounded-lg text-center">
-                  <h4 className="font-bold mb-2">Platinum</h4>
-                  <p className="text-school-red font-semibold">$1,000+</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
         {/* Class Legacy Section */}
         <div className="mb-16">
@@ -277,7 +202,7 @@ export default function Donors() {
                 </p>
                 <div className="mt-4">
                   <a 
-                    href="mailto:contact@fredericktownalumni.org" 
+                    href="mailto:freddiealumni@yahoo.com" 
                     className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
                   >
                     Contact Fundraising Committee
