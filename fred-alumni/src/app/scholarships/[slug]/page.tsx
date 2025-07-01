@@ -135,9 +135,12 @@ export function generateStaticParams() {
   }));
 }
 
-export default function ScholarshipPage({ params }: { params: { slug: string } }) {
+export default async function ScholarshipPage({ params }: { params: Promise<{ slug: string }> }) {
+  // Await the params to get the slug
+  const { slug } = await params;
+  
   // Find the scholarship by slug
-  const scholarship = namedScholarships.find((s) => s.slug === params.slug);
+  const scholarship = namedScholarships.find((s) => s.slug === slug);
   
   // If scholarship not found, return 404
   if (!scholarship) {
@@ -148,7 +151,7 @@ export default function ScholarshipPage({ params }: { params: { slug: string } }
   const ScholarshipContent = dynamic(
     () => {
       try {
-        return import(`@/data/scholarships/${params.slug}`).catch(() => {
+        return import(`@/data/scholarships/${slug}`).catch(() => {
           // If the file doesn't exist, return the default content
           return Promise.resolve({ default: () => <DefaultScholarshipContent name={scholarship.name} /> });
         });
