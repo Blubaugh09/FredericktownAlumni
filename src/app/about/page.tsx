@@ -34,7 +34,7 @@ export default function About() {
               Our Purpose
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-900">
-              The Fredericktown High School Alumni Association is organized for charitable and educational purposes, including the encouragement of donations to fund scholarships for alumni of Fredericktown High School and general support of the school.
+              The Fredericktown High School Alumni Association is organized for charitable and educational purposes, including the encouragement of donations to fund scholarships for alumni of Fredericktown High School and general support of the school. We are a Section 503(c)3 tax exempt organization.
             </p>
             <div className="mt-8 space-y-4">
               <div className="flex items-start">
