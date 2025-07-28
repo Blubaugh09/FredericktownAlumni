@@ -203,7 +203,7 @@ export default function Awardees() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">1998</h3>
                 <ul className="space-y-2 text-gray-800">
                   <li>Michael Bechtel</li>
-                  <li>Dick Hamey</li>
+                  <li>Dirk Harney</li>
                   <li>Jeremy Werner</li>
                 </ul>
               </div>
