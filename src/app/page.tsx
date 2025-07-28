@@ -68,7 +68,7 @@ Our goal is "More and larger Scholarships – every year!"
 
 All Scholarships are awarded or renewed each year.
 
-Students apply through the FHS Guidance Office.
+Students apply online at the Knox County Foundation website.
 
 The Fund is professionally managed by the Knox County Foundation; donations are tax deductible.
               </p>
@@ -119,7 +119,7 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
                   </div>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-6">
                     <li>All Scholarships are awarded or renewed each year</li>
-                    <li>Students apply through the FHS Guidance Office</li>
+                    <li>Students apply online at the Knox County Foundation website.</li>
                   </ul>
                 </div>
                 
@@ -243,71 +243,6 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
             <div className="inline-block bg-school-red text-white px-8 py-4 rounded-lg">
               <p className="text-xl font-bold italic">"It can be done in a small town."</p>
               <p className="text-sm mt-2 opacity-90">FHS Alumni Fundraising Committee</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Sections */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">How We Serve Our Community</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Card 1 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="h-48 bg-gray-100 flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 text-school-red" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 14l9-5-9-5-9 5 9 5z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998a12.078 12.078 0 01.665-6.479L12 14z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998a12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-                </svg>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Scholarships</h3>
-                <p className="text-gray-600 mb-4">
-                  We provide scholarships to deserving students pursuing higher education.
-                </p>
-                <Link href="/scholarships" className="text-school-red hover:text-red-800 font-medium">
-                  Learn more →
-                </Link>
-              </div>
-            </div>
-            
-            {/* Card 2 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="h-48 bg-gray-100 flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 text-school-red" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Alumni Network</h3>
-                <p className="text-gray-600 mb-4">
-                  Connect with fellow alumni and stay updated on events and reunions.
-                </p>
-                <Link href="/about" className="text-school-red hover:text-red-800 font-medium">
-                  Learn more →
-                </Link>
-              </div>
-            </div>
-            
-            {/* Card 3 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="h-48 bg-gray-100 flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 text-school-red" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Community Support</h3>
-                <p className="text-gray-600 mb-4">
-                  We fund various programs that benefit Fredericktown students and the community.
-                </p>
-                <Link href="/funds" className="text-school-red hover:text-red-800 font-medium">
-                  Learn more →
-                </Link>
-              </div>
             </div>
           </div>
         </div>
@@ -466,7 +401,7 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-school-red bg-white hover:bg-gray-100 mb-6"
           >
-            Donate Now
+            Donate Online
           </a>
           <div className="mt-6 pt-4 border-t border-white/30 max-w-3xl mx-auto">
             <p className="text-lg mb-2">Alternatively, make your check payable to FHS ALUMNI SCHOLARSHIP FUND.</p>

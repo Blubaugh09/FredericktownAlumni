@@ -20,7 +20,7 @@ export default function Donors() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-lg font-medium rounded-md text-school-red bg-white hover:bg-gray-100 shadow-md"
                 >
-                  Donate Now
+                  Donate Online
                 </a>
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function Donors() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
                 >
-                  Donate Now
+                  Donate Online
                 </a>
               </div>
             </div>

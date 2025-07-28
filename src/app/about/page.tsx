@@ -110,14 +110,49 @@ export default function About() {
         </div>
       </div>
 
-      {/* Annual Meetings Section */}
+      {/* Alumni Officers Section */}
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
+          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            Alumni Officers
+          </h2>
+          <div className="h-1 w-20 bg-school-red mx-auto mt-4"></div>
+        </div>
+        
+        <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-8 border border-gray-200">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-lg font-bold text-gray-900 mb-2">President</h3>
+              <p className="font-semibold text-gray-900">Jill Spearman '85 Macklin</p>
+            </div>
+            
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Vice President</h3>
+              <p className="font-semibold text-gray-900">Malcolm Shrimplin '88</p>
+            </div>
+            
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Secretary/Treasurer</h3>
+              <p className="font-semibold text-gray-900">Tina Bowers '84 Doup</p>
+            </div>
+            
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Historian</h3>
+              <p className="font-semibold text-gray-900">Kelly Goff '84 Castle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Annual Meetings Section */}
+      <div className="bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Annual Meetings
           </h2>
           <div className="h-1 w-20 bg-school-red mx-auto mt-4"></div>
-        </div>
+          </div>
         
         <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 max-w-4xl mx-auto">
           <div className="p-8">
@@ -163,6 +198,7 @@ export default function About() {
               </p>
             </div>
           </div>
+        </div>
         </div>
       </div>
 
@@ -236,6 +272,19 @@ export default function About() {
                   <p className="text-gray-700">Bettyweller36@hotmail.com</p>
                   <p className="text-gray-700">740-501-3349</p>
                 </div>
+                
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-semibold mb-1">Jeff Blubaugh '05</p>
+                  <p className="text-gray-700">blu.anesthesia@gmail.com</p>
+                  <p className="text-gray-700">419-560-9248</p>
+                </div>
+              </div>
+              
+              <div className="mt-8 p-6 bg-gray-50 rounded-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">For Information Contact:</h3>
+                <p className="font-semibold mb-1">Roger Davis '61</p>
+                <p className="text-gray-700">rfdavis12@hotmail.com</p>
+                <p className="text-gray-700">727-580-0740</p>
               </div>
               
               <div className="mt-8 p-6 bg-gray-50 rounded-lg">
@@ -279,31 +328,35 @@ export default function About() {
               </p>
             </div>
             
-            <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Current members of the Scholarship Committee:</h3>
+            <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">2025 Scholarship Awards Committee:</h3>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-gray-50 p-4 rounded-lg text-center">
-                <p className="font-semibold text-gray-900">Jill Spearman Macklin</p>
+                <p className="font-semibold text-gray-900">Kelly Goff '84 Castle</p>
               </div>
               
               <div className="bg-gray-50 p-4 rounded-lg text-center">
-                <p className="font-semibold text-gray-900">Betty Lozier Weller</p>
+                <p className="font-semibold text-gray-900">Tina Bowers '84 Doup</p>
               </div>
               
               <div className="bg-gray-50 p-4 rounded-lg text-center">
-                <p className="font-semibold text-gray-900">Chris Fearn Well</p>
+                <p className="font-semibold text-gray-900">Rhonda Chandler '82 Goeppinger</p>
               </div>
               
               <div className="bg-gray-50 p-4 rounded-lg text-center">
-                <p className="font-semibold text-gray-900">John Wareham</p>
+                <p className="font-semibold text-gray-900">Jill Spearman '85 Macklin</p>
               </div>
               
               <div className="bg-gray-50 p-4 rounded-lg text-center">
-                <p className="font-semibold text-gray-900">Tina Bowers Doup</p>
+                <p className="font-semibold text-gray-900">Malcolm Shrimplin '88</p>
               </div>
               
               <div className="bg-gray-50 p-4 rounded-lg text-center">
-                <p className="font-semibold text-gray-900">Kelly Goff Castle</p>
+                <p className="font-semibold text-gray-900">Chris Fearn '67 Well</p>
+              </div>
+              
+              <div className="bg-gray-50 p-4 rounded-lg text-center">
+                <p className="font-semibold text-gray-900">Betty Lozier '54 Weller</p>
               </div>
             </div>
           </div>

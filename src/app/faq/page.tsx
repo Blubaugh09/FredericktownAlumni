@@ -141,7 +141,7 @@ export default function FAQ() {
                       <h4 className="text-xl font-semibold text-gray-900 mb-4">FHS Alumni Website</h4>
                       <p className="text-gray-800 mb-4">Donate through our official alumni website</p>
                       <a 
-                        href="https://www.FredericktownAlumni.org" 
+                        href="https://FredericktownAlumni.org" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
@@ -184,67 +184,50 @@ export default function FAQ() {
         </div>
 
         {/* Where to Find Everything Else Section */}
-        <div className="mt-20">
-          <h2 className="text-3xl font-bold text-center mb-12">Where to Find Everything Else</h2>
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden p-8">
-            <div className="prose prose-lg mx-auto">
-              <div className="space-y-8">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6">For Everything FHS Go To:</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="bg-gray-50 p-6 rounded-lg">
-                      <h4 className="text-xl font-semibold text-gray-900 mb-4">FHS TouchPros</h4>
-                      <p className="text-gray-800 mb-4">
-                        The "go to" site for information of interest to FHS Students, Staff, Family, Alums, and Fans
-                      </p>
-                      <a 
-                        href="https://fredericktown.touchpros.com/Home2" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
-                      >
-                        Visit FHS TouchPros
-                      </a>
-                    </div>
-                    
-                    <div className="bg-gray-50 p-6 rounded-lg">
-                      <h4 className="text-xl font-semibold text-gray-900 mb-4">FHS Alumni Website</h4>
-                      <p className="text-gray-800 mb-4">
-                        Official alumni website with comprehensive alumni information and resources
-                      </p>
-                      <a 
-                        href="https://www.FredericktownAlumni.org" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
-                      >
-                        Visit Alumni Website
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6">What You'll Find</h3>
-                  <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-                    <p className="text-gray-800 mb-4">
-                      FHS TouchPros is the "go to" site for information of interest to FHS Students, Staff, Family, Alums, and Fans including:
-                    </p>
-                    <ul className="list-disc list-inside text-gray-800 space-y-2">
-                      <li>All Named Scholarships and Awardees</li>
-                      <li>"Freddies Helping Freddies" Annual Reports</li>
-                      <li>Alumni Listings by Year</li>
-                      <li>All Yearbooks</li>
-                      <li>Veterans</li>
-                      <li>Distinguished Alumni</li>
-                      <li>Athletic Hall of Fame Members</li>
-                      <li>Valedictorians</li>
-                      <li>Salutatorians</li>
-                      <li>Fans of the Year</li>
-                      <li>History, and more</li>
-                    </ul>
-                  </div>
-                </div>
+        <div className="mt-16 bg-school-red text-white rounded-lg p-8 text-center">
+          <h2 className="text-2xl font-bold mb-4">Where to Find Everything Else</h2>
+          <p className="text-lg max-w-3xl mx-auto mb-6">
+            FHS TouchPros is the comprehensive hub for all FHS information - your one-stop destination for students, staff, families, alumni, and fans.
+          </p>
+          <a 
+            href="https://fredericktown.touchpros.com/Home2" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-school-red bg-white hover:bg-gray-100 mb-6"
+          >
+            Visit FHS TouchPros
+          </a>
+          <div className="mt-6 pt-4 border-t border-white/30 max-w-4xl mx-auto">
+            <p className="text-lg mb-4">What you'll find on FHS TouchPros:</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+              <div>
+                <h4 className="font-semibold mb-2">Recognition & Awards</h4>
+                <ul className="space-y-1 text-sm text-white/90">
+                  <li>• All Named Scholarships and Awardees</li>
+                  <li>• Distinguished Alumni</li>
+                  <li>• Athletic Hall of Fame Members</li>
+                  <li>• Fans of the Year</li>
+                </ul>
+              </div>
+              
+              <div>
+                <h4 className="font-semibold mb-2">Academic Excellence</h4>
+                <ul className="space-y-1 text-sm text-white/90">
+                  <li>• Valedictorians</li>
+                  <li>• Salutatorians</li>
+                  <li>• Alumni Listings by Year</li>
+                  <li>• All Yearbooks</li>
+                </ul>
+              </div>
+              
+              <div>
+                <h4 className="font-semibold mb-2">Heritage & Community</h4>
+                <ul className="space-y-1 text-sm text-white/90">
+                  <li>• Veterans</li>
+                  <li>• "Freddies Helping Freddies" Reports</li>
+                  <li>• School History</li>
+                  <li>• And much more!</li>
+                </ul>
               </div>
             </div>
           </div>

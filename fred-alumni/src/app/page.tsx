@@ -119,7 +119,7 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
                   </div>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-6">
                     <li>All Scholarships are awarded or renewed each year</li>
-                    <li>Students apply through the FHS Guidance Office</li>
+                    <li>Students apply online at the Knox County Foundation website.</li>
                   </ul>
                 </div>
                 
@@ -466,7 +466,7 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-school-red bg-white hover:bg-gray-100 mb-6"
           >
-            Donate Now
+            Donate Online
           </a>
           <div className="mt-6 pt-4 border-t border-white/30 max-w-3xl mx-auto">
             <p className="text-lg mb-2">Alternatively, make your check payable to FHS ALUMNI SCHOLARSHIP FUND.</p>

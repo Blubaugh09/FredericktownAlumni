@@ -48,8 +48,8 @@ export default function Navbar() {
             <Link href="/about" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
               About
             </Link>
-            <Link href="/funds" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
-              Funds
+            <Link href="/faq" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
+              FAQ
             </Link>
             <Link href="/scholarships" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
               Scholarships
@@ -77,7 +77,7 @@ export default function Navbar() {
               rel="noopener noreferrer" 
               className="ml-4 inline-flex items-center justify-center px-5 py-2.5 border border-gray-300 text-sm font-bold rounded-md text-white bg-gray-700 hover:bg-gray-600 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
             >
-              Donate Now
+              Donate Online
             </a>
           </div>
           
@@ -129,8 +129,8 @@ export default function Navbar() {
             <Link href="/about" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
               About
             </Link>
-            <Link href="/funds" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
-              Funds
+            <Link href="/faq" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
+              FAQ
             </Link>
             <Link href="/scholarships" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
               Scholarships
@@ -158,7 +158,7 @@ export default function Navbar() {
               rel="noopener noreferrer" 
               className="block px-3 py-3 mt-2 text-center rounded-md text-base font-bold bg-gray-700 text-white hover:bg-gray-600 shadow-md"
             >
-              Donate Now
+              Donate Online
             </a>
           </div>
         </div>

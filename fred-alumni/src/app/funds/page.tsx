@@ -309,7 +309,7 @@ export default function Funds() {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-school-red bg-white hover:bg-gray-100 mb-6"
           >
-            Donate Now
+            Donate Online
           </a>
           <div className="mt-6 pt-4 border-t border-white/30 max-w-3xl mx-auto">
             <p className="text-lg mb-2">Alternatively, make your check payable to FHS ALUMNI SCHOLARSHIP FUND.</p>
