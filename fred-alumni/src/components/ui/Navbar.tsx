@@ -71,14 +71,12 @@ export default function Navbar() {
             >
               Apply Now
             </a>
-            <a 
-              href="https://knoxcf.awardspring.com/Home/Scholarships" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <Link 
+              href="/faq#how-to-donate" 
               className="ml-4 inline-flex items-center justify-center px-5 py-2.5 border border-gray-300 text-sm font-bold rounded-md text-white bg-gray-700 hover:bg-gray-600 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
             >
-              Donate Online
-            </a>
+              Donate
+            </Link>
           </div>
           
           {/* Mobile menu button */}
@@ -91,14 +89,12 @@ export default function Navbar() {
             >
               Apply
             </a>
-            <a 
-              href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <Link 
+              href="/faq#how-to-donate" 
               className="mr-4 inline-flex items-center justify-center px-3 py-1.5 border border-gray-300 text-sm font-bold rounded-md text-white bg-gray-700 hover:bg-gray-600 shadow-md"
             >
               Donate
-            </a>
+            </Link>
             <button
               onClick={toggleMenu}
               className="inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-red-800 focus:outline-none"
@@ -152,14 +148,12 @@ export default function Navbar() {
             >
               Apply Now
             </a>
-            <a 
-              href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <Link 
+              href="/faq#how-to-donate" 
               className="block px-3 py-3 mt-2 text-center rounded-md text-base font-bold bg-gray-700 text-white hover:bg-gray-600 shadow-md"
             >
-              Donate Online
-            </a>
+              Donate
+            </Link>
           </div>
         </div>
       )}

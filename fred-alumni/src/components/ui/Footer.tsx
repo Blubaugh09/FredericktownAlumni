@@ -19,7 +19,7 @@ export default function Footer() {
           </a>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div className="bg-black p-4 rounded">
             <div className="text-2xl font-bold mb-4 text-white !important">Fredericktown Alumni</div>
             <div className="text-lg text-white !important">
@@ -41,51 +41,26 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/funds" className="text-lg text-white hover:text-school-red transition-colors">
-                  Funds
+                <Link href="/faq" className="text-lg text-white hover:text-school-red transition-colors">
+                  FAQ
+                </Link>
+              </li>
+              <li>
+                <Link href="/archives" className="text-lg text-white hover:text-school-red transition-colors">
+                  Alumni Archives
                 </Link>
               </li>
             </ul>
           </div>
           
-          <div className="bg-black p-4 rounded">
-            <div className="text-xl font-bold mb-4 text-white border-b border-white-800 pb-2 !important">Resources</div>
-            <ul className="space-y-3">
-              <li>
-                <Link href="/scholarships" className="text-lg text-white hover:text-school-red transition-colors">
-                  Scholarships
-                </Link>
-              </li>
-              <li>
-                <Link href="/awardees" className="text-lg text-white hover:text-school-red transition-colors">
-                  Awardees
-                </Link>
-              </li>
-              <li>
-                <Link href="/yearbooks" className="text-lg text-white hover:text-school-red transition-colors">
-                  Yearbooks
-                </Link>
-              </li>
-            </ul>
-          </div>
           
           <div className="bg-black p-4 rounded">
             <div className="text-xl font-bold mb-4 text-white border-b border-white-800 pb-2 !important">Support</div>
             <ul className="space-y-3">
               <li>
-                <Link href="/donors" className="text-lg text-white hover:text-school-red transition-colors">
-                  Donors
-                </Link>
-              </li>
-              <li>
-                <a 
-                  href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-lg text-school-red hover:text-red-400 font-bold"
-                >
+                <Link href="/faq#how-to-donate" className="text-lg text-school-red hover:text-red-400 font-bold">
                   Make a Donation
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="mailto:freddiealumni@yahoo.com" className="text-lg text-white hover:text-school-red transition-colors">

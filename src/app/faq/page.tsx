@@ -116,7 +116,7 @@ export default function FAQ() {
         </div>
 
         {/* How to Donate Section */}
-        <div className="mt-20">
+        <div id="how-to-donate" className="mt-20">
           <h2 className="text-3xl font-bold text-center mb-12">How to Donate</h2>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden p-8">
             <div className="prose prose-lg mx-auto">
