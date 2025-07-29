@@ -63,6 +63,10 @@ export default function Navbar() {
             <Link href="/archives" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
               Alumni Archives
             </Link>
+            
+            <Link href="/fhs-links" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
+              FHS Links
+            </Link>
            
             <a 
               href="https://knoxcf.awardspring.com/Home/Scholarships" 
@@ -120,6 +124,10 @@ export default function Navbar() {
             
             <Link href="/archives" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
               Alumni Archives
+            </Link>
+            
+            <Link href="/fhs-links" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
+              FHS Links
             </Link>
            
             <a 

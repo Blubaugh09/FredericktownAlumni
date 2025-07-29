@@ -61,14 +61,13 @@ export default function Navbar() {
             <Link href="/scholarships" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
               Scholarships
             </Link>
-            <Link href="/awardees" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
-              Awardees
+            
+            <Link href="/archives" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
+              Alumni Archives
             </Link>
-            <Link href="/donors" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
-              Donors
-            </Link>
-            <Link href="https://fredericktown.touchpros.com/FlipbookYear?tabid=7974" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
-              Yearbooks
+            
+            <Link href="/fhs-links" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-red-800">
+              FHS Links
             </Link>
             <a 
               href="https://knoxcf.awardspring.com/Home/Scholarships" 
@@ -128,6 +127,10 @@ export default function Navbar() {
             
             <Link href="/archives" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
               Alumni Archives
+            </Link>
+            
+            <Link href="/fhs-links" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
+              FHS Links
             </Link>
            
             <a 
