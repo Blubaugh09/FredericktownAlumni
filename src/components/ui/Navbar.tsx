@@ -28,10 +28,15 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleLinkClick = () => {
+    // Add a small delay before closing for smoother UX
+    setTimeout(() => {
+      setIsMenuOpen(false);
+    }, 150);
+  };
+
   return (
-    <nav className={`fixed top-0 left-0 right-0 bg-school-red text-white z-50 transition-all duration-300 ${
-      isScrolled ? 'shadow-lg' : 'shadow-md'
-    }`}>
+    <nav className={`fixed top-0 left-0 right-0 bg-school-red text-white z-50 transition-all duration-300 ${isScrolled ? 'shadow-lg' : 'shadow-md'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
@@ -77,20 +82,6 @@ export default function Navbar() {
           
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
-            <a 
-              href="https://knoxcf.org/how-to-apply/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="mr-2 inline-flex items-center justify-center px-3 py-1.5 border border-white text-sm font-bold rounded-md text-school-red bg-white hover:bg-gray-100 shadow-md"
-            >
-              Apply
-            </a>
-            <Link 
-              href="/faq#how-to-donate" 
-              className="mr-4 inline-flex items-center justify-center px-3 py-1.5 border border-gray-300 text-sm font-bold rounded-md text-white bg-gray-700 hover:bg-gray-600 shadow-md"
-            >
-              Donate
-            </Link>
             <button
               onClick={toggleMenu}
               className="inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-red-800 focus:outline-none"
@@ -112,23 +103,27 @@ export default function Navbar() {
       </div>
 
       {/* Mobile menu, show/hide based on menu state */}
-      {isMenuOpen && (
-        <div className="md:hidden bg-school-red">
+      <div className={`md:hidden bg-school-red transition-all duration-500 ease-in-out ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`} style={{ overflow: 'hidden' }}>
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link href="/" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
+            <Link href="/" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
               Home
             </Link>
-            <Link href="/about" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
+            <Link href="/about" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
               About
             </Link>
-            <Link href="/faq" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
+            <Link href="/faq" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
               FAQ
             </Link>
-            <Link href="/scholarships" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
+            <Link href="/scholarships" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
               Scholarships
             </Link>
+            
+            <Link href="/archives" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">
+              Alumni Archives
+            </Link>
+           
             <a 
-              href="https://knoxcf.org/how-to-apply/" 
+              href="https://knoxcf.awardspring.com/Home/Scholarships" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="block px-3 py-3 mt-2 text-center rounded-md text-base font-bold bg-white text-school-red hover:bg-gray-100 shadow-md border border-white"
@@ -137,13 +132,13 @@ export default function Navbar() {
             </a>
             <Link 
               href="/faq#how-to-donate" 
+              onClick={handleLinkClick}
               className="block px-3 py-3 mt-2 text-center rounded-md text-base font-bold bg-gray-700 text-white hover:bg-gray-600 shadow-md"
             >
               Donate
             </Link>
           </div>
         </div>
-      )}
     </nav>
   );
 } 
