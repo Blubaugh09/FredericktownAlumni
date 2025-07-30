@@ -122,6 +122,11 @@ export default function Scholarships() {
       name: "David L. Dalrymple",
       slug: "david-dalrymple",
       description: "Created in memory of David L. Dalrymple. This scholarship supports students with interests in business, technology, or entrepreneurship."
+    },
+    {
+      name: "Roy McKinley '38",
+      slug: "roy-mckinley",
+      description: "Honors the legendary coach, teacher, and superintendent Roy McKinley, Class of 1938. Recognizes students who demonstrate leadership, community service, and the perseverance to achieve the seemingly impossible."
     }
   ];
 

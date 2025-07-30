@@ -125,6 +125,11 @@ const namedScholarships = [
     name: "David L. Dalrymple",
     slug: "david-dalrymple",
     description: "Created in memory of David L. Dalrymple. This scholarship supports students with interests in business, technology, or entrepreneurship."
+  },
+  {
+    name: "Roy McKinley '38",
+    slug: "roy-mckinley",
+    description: "Honors the legendary coach, teacher, and superintendent Roy McKinley, Class of 1938. Recognizes students who demonstrate leadership, community service, and the perseverance to achieve the seemingly impossible."
   }
 ];
 
@@ -171,8 +176,8 @@ export default async function ScholarshipPage({ params }: { params: Promise<{ sl
       <div className="relative bg-school-red text-white">
         <div className="max-w-7xl mx-auto px-4 py-16  sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">{scholarship.name} Scholarship</h1>
-            <p className="mt-6 max-w-3xl mx-auto text-xl">
+            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl text-white">{scholarship.name} Scholarship</h1>
+            <p className="mt-6 max-w-3xl mx-auto text-xl text-white">
               Supporting educational excellence for future generations.
             </p>
           </div>
@@ -183,27 +188,27 @@ export default async function ScholarshipPage({ params }: { params: Promise<{ sl
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 mb-10 p-8">
           <div className="prose prose-red prose-lg mx-auto">
-            <h2>About This Scholarship</h2>
-            <p className="text-gray-800">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">About This Scholarship</h2>
+            <p className="text-gray-800 text-lg mb-8">
               {scholarship.description}
             </p>
             
             {/* Press release content - dynamically loaded */}
             <div className="mt-8 p-6 bg-gray-50 rounded-lg">
-              <h3>Press Release</h3>
+              
               <Suspense fallback={<p className="text-gray-500">Loading scholarship content...</p>}>
                 <ScholarshipContent />
               </Suspense>
             </div>
             
             {/* Eligibility and Application section (placeholder) */}
-            <h3 className="mt-8">Eligibility Criteria</h3>
-            <p className="text-gray-800">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 mt-8">Eligibility Criteria</h3>
+            <p className="text-gray-800 text-lg mb-8">
               Detailed eligibility criteria for the {scholarship.name} Scholarship will be added here.
             </p>
             
-            <h3 className="mt-6">How to Apply</h3>
-            <p className="text-gray-800">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">How to Apply</h3>
+            <p className="text-gray-800 text-lg mb-8">
               Application information and deadlines for this scholarship will be provided in this section.
             </p>
             
