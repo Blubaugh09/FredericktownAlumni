@@ -127,6 +127,41 @@ export default function Scholarships() {
       name: "Roy McKinley '38",
       slug: "roy-mckinley",
       description: "Honors the legendary coach, teacher, and superintendent Roy McKinley, Class of 1938. Recognizes students who demonstrate leadership, community service, and the perseverance to achieve the seemingly impossible."
+    },
+    {
+      name: "Tracie Weller Women in STEM",
+      slug: "tracie-weller-stem",
+      description: "Honors Tracie J. Weller's 30-year teaching career (1985-2010). Supports young women pursuing education in science, technology, engineering, and mathematics fields."
+    },
+    {
+      name: "Dr. Robert & Patricia Hines Ronk & Family",
+      slug: "robert-patricia-ronk",
+      description: "Established by Dr. Robert Ronk and Patricia Hines Ronk to help future generations of Fredericktown graduates with their post-high school education."
+    },
+    {
+      name: "Gary & Sharon Ritchey Streby",
+      slug: "gary-sharon-streby",
+      description: "Created by Gary Streby to honor the memory of his wife, Sharon Ritchey Streby (Class of 1961). Supports students who embody Sharon's love of learning and dedication to education."
+    },
+    {
+      name: "Jeannine Weller Davis",
+      slug: "jeannine-weller-davis",
+      description: "Honors Jeannine Weller Davis (Class of 1961) for her lifetime of community service and volunteerism. Supports students who demonstrate hard work and dedication to making a positive impact."
+    },
+    {
+      name: "Chris Fearn Well",
+      slug: "chris-fearn-well",
+      description: "Recognizes Chris' lifetime dedication to Fredericktown as a teacher, leader, and tireless community volunteer. Honors her 32 years of teaching and 46 years of service to the Tomato Show."
+    },
+    {
+      name: "Ed & Sandy Erick & Family",
+      slug: "ed-sandy-erick",
+      description: "Honors Ed Erick's legacy as FHS Principal and community leader, and the Erick family's commitment to education. Supports students who exemplify excellence, determination, compassion, and service."
+    },
+    {
+      name: "Class of 1974",
+      slug: "class-of-1974",
+      description: "Established by the FHS Class of 1974 to pay it forward to future generations. Created in celebration of their 50th reunion to support Fredericktown students in their educational journeys."
     }
   ];
 

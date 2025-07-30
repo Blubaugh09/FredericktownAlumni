@@ -259,7 +259,7 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             
             {/* Update 1: 2025 Scholarship Thank You Notes */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
@@ -322,6 +322,38 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
                 </a>
+              </div>
+            </div>
+
+            {/* Update 3: 2024 Scholarship Awardees */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              <div className="h-2 bg-school-red"></div>
+              <div className="p-6">
+                <div className="flex items-center mb-3">
+                  <div className="flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-school-red" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14v7" />
+                    </svg>
+                  </div>
+                  <div className="ml-3">
+                    <span className="text-sm font-medium text-gray-500">2024 Awards</span>
+                  </div>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">2024 Scholarship Awardees Announced</h3>
+                <p className="text-gray-600 mb-4">
+                  Congratulations to our 2024 scholarship recipients! 29 students received awards totaling over $35,000 from our named scholarships.
+                </p>
+                <Link 
+                  href="/scholarships/awardees" 
+                  className="text-school-red hover:text-red-800 font-medium text-sm flex items-center"
+                >
+                  View All Recipients
+                  <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
               </div>
             </div>
 
