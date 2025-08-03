@@ -6,162 +6,164 @@ export default function Scholarships() {
     {
       name: "Ula Weller '35 Leedy",
       slug: "ula-weller-leedy",
-      description: "Established to honor Ula Weller Leedy, Class of 1935. This scholarship supports students with demonstrated academic achievement and community involvement."
+      description: "Established in 2016 to honor the life of Ula Weller, FHS-1935, Leedy, who was a successful business woman and great mother. Sponsored by her daughter, Bonita Leedy, FHS-1960, Birkel."
     },
     {
       name: "Richard K. Wilson '65",
       slug: "richard-k-wilson",
-      description: "Created in memory of Richard K. Wilson, Class of 1965. This scholarship is awarded to students pursuing higher education with a focus on business studies."
+      description: "Established in 2017 to honor the life of Richard K. Wilson, FHS-1965, who overcame many obstacles on his way to success in business and as a miracle father. Sponsored by his brother, Bill Wilson, FHS-1962."
     },
     {
       name: "Dr. William L. & Marietta B. Mahaffey",
       slug: "william-marietta-mahaffey",
-      description: "Honors the legacy of Dr. William and Marietta Mahaffey. Supports students pursuing careers in education or healthcare fields."
+      description: "Established in 2017 to honor Dr. William and Marietta Mahaffey, the beloved local MD and Nurse team in the 1940's and 50's. Sponsored by the Mahaffey children- Marilyn, FHS-1950; Martha, FHS-1952; and Bill, FHS-1954."
     },
     {
       name: "Class of 1961",
       slug: "class-of-1961",
-      description: "Established by the Class of 1961 to support future generations of Fredericktown students in their educational pursuits."
+      description: "Established in 2017, to recognize the great Fredericktown community and schools. Sponsored by the Class of 1961 on the occasion of their 55th Class reunion."
     },
     {
       name: "Class of 1947",
       slug: "class-of-1947",
-      description: "Created by the Class of 1947 to celebrate their legacy and provide opportunities for academic advancement to Fredericktown graduates."
+      description: "Established in 2017, to recognize their community and teachers. Sponsored by the Class of 1947 on the occasion of their 70th Class reunion."
     },
     {
       name: "Otho S. '37 & Iris Jeanne Moree '38 Eyster",
       slug: "otho-iris-eyster",
-      description: "Honors the Eyster family's commitment to education. Supports students who demonstrate community service and academic excellence."
+      description: "Established in 2018 to honor the lives of Otho, FHS-1937, and Iris Jeanne Moree, FHS-1938, Eyster, who paved the way for their children. Sponsored by two of their sons, Otho, FHS-1961, and Chase, FHS -1979."
     },
     {
       name: "Phillips-Frye",
       slug: "phillips-frye",
-      description: "Established to honor the Phillips and Frye families. This scholarship supports students with financial need pursuing college education."
+      description: "Established in 2018 to honor the lives of their parents, John and Angeline Phillips and Fred and Ruth Frye, who were community leaders. Sponsored by two of their children, Gary, FHS-1960, and Sharon Phillips, FHS-1962, Frye."
     },
     {
       name: "Gold Star Parents",
       slug: "gold-star-parents",
-      description: "Honors the families who have lost a son or daughter in military service. Awarded to students who demonstrate patriotism and service."
+      description: "Established in 2018 to honor the never-ending sacrifice made by all Gold Star Parents. Sponsored by Dan, FHS 1961, and Susan Snyder."
     },
     {
       name: "Class of 1958",
       slug: "class-of-1958",
-      description: "Created by the Class of 1958 to support Fredericktown graduates in their pursuit of higher education and career goals."
+      description: "Established in 2018, to recognize the great Fredericktown community and schools. Sponsored by the Class of 1958 on the occasion of their 60th Class reunion."
     },
     {
       name: "Class of 1959 Honoring Julie Cochran Rogers",
       slug: "class-of-1959-julie-cochran-rogers",
-      description: "Established by the Class of 1959 in honor of Julie Cochran Rogers. Supports students who embody her spirit of community service."
+      description: "Established in 2020 to honor the life of their classmate, Julie Cochran, FHS-1959, Rogers, who overcame polio, broke through barriers and changed our Nation. Sponsored by the Class of 1959 on the occasion of their 60th Class reunion."
     },
     {
       name: "Carmon & Betty Weller & Family",
       slug: "carmon-betty-weller",
-      description: "Honors the Weller family's commitment to education. Awarded to students pursuing studies in agriculture or related fields."
+      description: "Established in 2020, to support the education of Fredericktown children. Sponsored by the Weller Family:  Carmon, FHS-1952 and Betty, FHS-1954, and their children: Tracie, FHS-1975; Jeff, FHS-1978; and Judd, FHS-1980."
     },
     {
       name: "Willie Davis – 4 Scholarships",
       slug: "willie-davis",
-      description: "Established by Willie Davis to provide four annual scholarships to Fredericktown graduates with outstanding academic and athletic achievement."
+      description: "Four Scholarships established in 2002 to honor the life of Willie Davis, who attended FHS during the Great Depression years. Sponsored by Willie's sons, Ray, FHS-1958, and Roger, FHS-1961, to promote Willie's values to all FHS footballers."
     },
     {
       name: "Dean & Jane Streby",
       slug: "dean-jane-streby",
-      description: "Created in honor of Dean and Jane Streby. This scholarship supports students pursuing careers in education or community service."
+      description: "Established in 2021 to honor the lives of Dean, FHS-1946, and Jane Streby, long time community role models and supporters of FHS athletics. Sponsored by their children, Laurie, FHS-1973; Joni, FHS-1975; Carole,1979; and Mike, FHS-1984."
     },
     {
       name: "Lori Ackerman Class of 1988",
       slug: "lori-ackerman",
-      description: "Established in memory of Lori Ackerman, Class of 1988. Supports students who demonstrate her values of perseverance and dedication."
+      description: "Four Scholarships established in 2021 to honor the legacy of Mrs. Lori Ackerman, a favorite and inspirational teacher. Sponsored by the entire Class of 1988 with special financial leadership by Lori's twin daughters, Melana and Melisa, both FHS-1988."
     },
     {
       name: "Rachel A. Gregg Women in STEM",
       slug: "rachel-gregg-stem",
-      description: "Created to honor Rachel A. Gregg. This scholarship specifically supports young women pursuing education in STEM fields."
+      description: "Established in 2021 to encourage young women to pursue technical careers and to honor Mrs. Rachel Gregg, a special STEM teacher. This is the first in a series of four Women in STEM Scholarships. Initially sponsored by Malcolm Shrimplin, FHS -1988, followed by strong financial support from Rachel Gregg and her daughter, Anne, FHS-1975."
     },
     {
       name: "FHS Distinguished Hall of Honor",
       slug: "fhs-hall-of-honor",
-      description: "Established to recognize and support students who exemplify the values and achievements of those in the Fredericktown Distinguished Hall of Honor."
+      description: "Established in 2021 to recognize the blessings of growing up in the great Fredericktown schools with a supportive community. Sponsored by members of the FHS Distinguished Alumni Hall of Honor."
     },
     {
       name: "Clyde & Edna Boyd",
       slug: "clyde-edna-boyd",
-      description: "Honors the legacy of Clyde and Edna Boyd. Awarded to students who demonstrate strong work ethic and community involvement."
+      description: "Established in 2022 to honor the lives of Clyde and Edna Boyd for their deep commitment to Fredericktown Schools over many years. Sponsored by their daughters- Betty Boyd, FHS-1956, Caroli, and Lois Boyd, FHS-1958, Boyce."
+    },
+
+    {
+      name: "Jack & Jean Carter Family",
+      slug: "jack-jean-carter",
+      description: "Established in 2022 to recognize Fredericktown as a special place with great people and schools. Sponsored by Jean Braddock Carter, FHS-1947, and children: Nancy, FHS-1973, Tom, FHS-1976, and Gary, FHS-1982."
     },
     {
       name: "Janet Hadley '59 Mather",
       slug: "janet-hadley-mather",
-      description: "Created in honor of Janet Hadley Mather, Class of 1959. Supports students with interests in arts, humanities, or community service."
-    },
-    {
-      name: "Jack & Jean Carter Family",
-      slug: "jack-jean-carter",
-      description: "Established by the Carter family to support Fredericktown students pursuing higher education with demonstrated financial need."
+      description: "Established in 2022 to honor the life of Janet Hadley, FHS-1959, Mather,  who was a loving wife, mother, and active volunteer. Sponsored by her husband, Robert Mather, and daughters, Stacia Kaschak and Kristy Caldarella."
     },
     {
       name: "Ruth E. Auker Women in STEM",
       slug: "ruth-auker-stem",
-      description: "Honors Ruth E. Auker's contributions to education. This scholarship supports female students pursuing careers in STEM fields."
+      description: "Established in 2022 to encourage young women to pursue technical careers and to honor Mrs. Ruth Auker, a special STEM teacher. This is the second in a series of four Women in STEM Scholarships sponsored by Malcolm Shrimplin, FHS -1988."
     },
     {
       name: "Morris & Sue James & Family",
       slug: "morris-sue-james",
-      description: "Created by the James family to support students with academic excellence and community involvement from Fredericktown."
+      description: "Established in 2023 to help FHS grads further their educations. Sponsored by Morris and Sue James, who had distinguished careers as educators and community leaders, and daughters: Vicky, FHS-1976; Carol, FHS-1980; and Terri, FHS-1982."
     },
     {
       name: "Catherine Zagula Women in STEM",
       slug: "catherine-zagula-stem",
-      description: "Established to honor Catherine Zagula. Supports young women pursuing education and careers in science, technology, engineering, or mathematics."
+      description: "Established in 2023 to encourage young women to pursue technical careers and to honor Mrs. Catherine Zagula, a special STEM teacher. This is the third in a series of four Women in STEM Scholarships sponsored by Malcolm Shrimplin, FHS -1988."
     },
     {
       name: "Rusty & Mary Dalrymple & Family",
       slug: "rusty-mary-dalrymple",
-      description: "Honors the Dalrymple family's commitment to education. Awarded to students who demonstrate leadership and community service."
+      description: "Established in 2023 to honor the lives of Rusty and Mary McClelland, FHS-1931, Dalrymple, for their deep commitment to the local school and community, including their long service to the school board. Sponsored by their son, Richard Dalrymple, FHS-1960."
     },
     {
       name: "David L. Dalrymple",
       slug: "david-dalrymple",
-      description: "Created in memory of David L. Dalrymple. This scholarship supports students with interests in business, technology, or entrepreneurship."
+      description: "Established in 2024 to honor the life of David Dalrymple, FHS-1958, whose work in science led to a breakthrough in MRI technology. Sponsored by his brother, Richard Dalrymple, FHS-1960."
     },
-    {
-      name: "Roy McKinley '38",
-      slug: "roy-mckinley",
-      description: "Honors the legendary coach, teacher, and superintendent Roy McKinley, Class of 1938. Recognizes students who demonstrate leadership, community service, and the perseverance to achieve the seemingly impossible."
-    },
+
     {
       name: "Tracie Weller Women in STEM",
       slug: "tracie-weller-stem",
-      description: "Honors Tracie J. Weller's 30-year teaching career (1985-2010). Supports young women pursuing education in science, technology, engineering, and mathematics fields."
+      description: "Established in 2024 to encourage young women to pursue technical careers and to honor Tracie Weller, FHS-1975, as a special STEM teacher. This is the fourth in a series of four Women in STEM Scholarships sponsored by Malcolm Shrimplin, FHS -1988."
     },
     {
       name: "Dr. Robert & Patricia Hines Ronk & Family",
       slug: "robert-patricia-ronk",
-      description: "Established by Dr. Robert Ronk and Patricia Hines Ronk to help future generations of Fredericktown graduates with their post-high school education."
+      description: "Established in 2024 to help FHS grads further their educations. Sponsored by Dr. Robert, FHS-1959, and Patricia Hines, FHS-1960, Ronk. Dr. Robert was the Knox County orthodontist for 38 years with Patricia as the office manager."
     },
     {
       name: "Gary & Sharon Ritchey Streby",
       slug: "gary-sharon-streby",
-      description: "Created by Gary Streby to honor the memory of his wife, Sharon Ritchey Streby (Class of 1961). Supports students who embody Sharon's love of learning and dedication to education."
+      description: "Established in 2024 to honor the life of Sharon Ritchey, FHS-1961, Streby, and to help Freddies fund their educations. Sponsored by her husband, Gary Streby, FHS-1963, who got to know Sharon as they worked together at the local Ritchey's Market."
     },
     {
       name: "Jeannine Weller Davis",
       slug: "jeannine-weller-davis",
-      description: "Honors Jeannine Weller Davis (Class of 1961) for her lifetime of community service and volunteerism. Supports students who demonstrate hard work and dedication to making a positive impact."
+      description: "Established in 2024 to honor Jeannine Weller, FHS-1961, Davis for her lifetime of being \"the wind beneath the wings\" for her family, friends, neighbors, and numerous organizations in New Jersey, Florida, and Ohio. Sponsored by her husband, Roger Davis, FHS-1961."
     },
     {
       name: "Chris Fearn Well",
       slug: "chris-fearn-well",
-      description: "Recognizes Chris' lifetime dedication to Fredericktown as a teacher, leader, and tireless community volunteer. Honors her 32 years of teaching and 46 years of service to the Tomato Show."
+      description: "Established in 2025 to honor Chris Fearn, FHS-1967, Well for her lifetime of dedication as a teacher, leader, and tireless worker on a dizzying list of community activities. Sponsored by a community fundraiser led by Francie Lord, FHS-1967, Rodstrom."
     },
     {
       name: "Ed & Sandy Erick & Family",
       slug: "ed-sandy-erick",
-      description: "Honors Ed Erick's legacy as FHS Principal and community leader, and the Erick family's commitment to education. Supports students who exemplify excellence, determination, compassion, and service."
+      description: "Established in 2025 to honor the life of Ed Erick, a respected FHS Principal, community leader and family man. Sponsored by his wife, Sandy Erick, and sons: Matt, FHS-1986, and Scott, FHS-1991."
     },
     {
       name: "Class of 1974",
       slug: "class-of-1974",
-      description: "Established by the FHS Class of 1974 to pay it forward to future generations. Created in celebration of their 50th reunion to support Fredericktown students in their educational journeys."
+      description: "Established in 2025, to recognize the great Fredericktown community and schools. Sponsored by the Class of 1974 on the occasion of their 50th Class reunion."
+    },
+    {
+      name: "Roy McKinley '38",
+      slug: "roy-mckinley",
+      description: "Established in 2026 to recognize the footprints left by Roy McKinley during a 15-year Fredericktown career spanning 1937-1952 as a coach, teacher and Superintendent. Sponsored by a group of Roy's former students and friends, led by Betty Weller and others."
     }
   ];
 
@@ -185,6 +187,52 @@ export default function Scholarships() {
                 height={300}
                 className="w-40 md:w-64 h-auto mx-auto object-contain"
               />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Named Scholarships Section */}
+      <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+        <div>
+          <h2 className="text-3xl font-bold text-center mb-8">Named Scholarships</h2>
+          <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 mb-10 px-8 py-10">
+            <div className="max-w-3xl mx-auto mb-10">
+              <div className="space-y-4">
+                <p className="text-lg text-gray-900">
+                  A Donor or a Group of Donors making gifts cumulating to $10,000 or greater have an 
+                  opportunity to "Name" a scholarship.
+                </p>
+                <p className="text-lg text-gray-900">
+                  A "Named Scholarship" is a great way to permanently recognize a special person or group 
+                  of people with a Scholarship that will be awarded every year—forever!
+                </p>
+              </div>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {namedScholarships.map((scholarship, index) => (
+                <Link href={`/scholarships/${scholarship.slug}`} key={index}>
+                  <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 transition-all duration-300 hover:shadow-lg hover:border-school-red cursor-pointer h-full">
+                    <div className="h-3 bg-school-red"></div>
+                    <div className="px-5 py-6">
+                      <h3 className="text-xl font-bold text-gray-900 mb-3">{scholarship.name}</h3>
+                      <p className="text-gray-700 text-sm">{scholarship.description}</p>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+
+            <div className="mt-12 text-center">
+              <a 
+                href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+              >
+                Create a Named Scholarship
+              </a>
             </div>
           </div>
         </div>
@@ -219,7 +267,7 @@ export default function Scholarships() {
       </div>
 
       {/* Scholarship Information */}
-      <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto mb-16 bg-white p-8 rounded-lg shadow-sm border border-gray-100">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Universal Scholarship Application</h2>
           <div className="space-y-6">
@@ -340,49 +388,6 @@ export default function Scholarships() {
           </div>
         </div>
 
-        {/* Named Scholarships Section */}
-        <div className="mt-20">
-          <h2 className="text-3xl font-bold text-center mb-8">Named Scholarships</h2>
-          <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 mb-10 px-8 py-10">
-            <div className="max-w-3xl mx-auto mb-10">
-              <div className="space-y-4">
-                <p className="text-lg text-gray-900">
-                  A Donor or a Group of Donors making gifts cumulating to $10,000 or greater have an 
-                  opportunity to "Name" a scholarship.
-                </p>
-                <p className="text-lg text-gray-900">
-                  A "Named Scholarship" is a great way to permanently recognize a special person or group 
-                  of people with a Scholarship that will be awarded every year—forever!
-                </p>
-              </div>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {namedScholarships.map((scholarship, index) => (
-                <Link href={`/scholarships/${scholarship.slug}`} key={index}>
-                  <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 transition-all duration-300 hover:shadow-lg hover:border-school-red cursor-pointer h-full">
-                    <div className="h-3 bg-school-red"></div>
-                    <div className="px-5 py-6">
-                      <h3 className="text-xl font-bold text-gray-900 mb-3">{scholarship.name}</h3>
-                      <p className="text-gray-700 text-sm">{scholarship.description}</p>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-
-            <div className="mt-12 text-center">
-              <a 
-                href="https://knoxcf.fcsuite.com/erp/donate/create?funit_id=1178" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-school-red hover:bg-red-800"
-              >
-                Create a Named Scholarship
-              </a>
-            </div>
-          </div>
-        </div>
 
         {/* Contact Section */}
         <div className="mt-16 text-center">
