@@ -161,9 +161,14 @@ export default function Scholarships() {
       description: "Established in 2025, to recognize the great Fredericktown community and schools. Sponsored by the Class of 1974 on the occasion of their 50th Class reunion."
     },
     {
-      name: "Roy McKinley '38",
+      name: "Roy McKinley",
       slug: "roy-mckinley",
       description: "Established in 2026 to recognize the footprints left by Roy McKinley during a 15-year Fredericktown career spanning 1937-1952 as a coach, teacher and Superintendent. Sponsored by a group of Roy's former students and friends, led by Betty Weller and others."
+    },
+    {
+      name: "Art & Beverly Dremann",
+      slug: "art-beverly-dremann",
+      description: "Established in 2026 to recognize entire Dremann family’s career contributions to education. Art and Beverly Henwood ’55 Dremann and their daughters, Kathie-FHS-‘76 and Amy, FHS-‘79, together devoted over 150 years of service to young people."
     }
   ];
 
