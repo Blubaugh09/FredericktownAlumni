@@ -273,8 +273,9 @@ export default function AlumniArchives() {
         <div className="mt-16 bg-school-red text-white rounded-lg p-8 text-center">
           <h2 className="text-2xl font-bold mb-4">Explore Your FHS Legacy</h2>
           <p className="text-lg max-w-3xl mx-auto mb-6">
-            Whether you're looking for classmates, researching school history, or exploring scholarship opportunities, 
-            FHS TouchPros is your comprehensive resource for all things Fredericktown High School.
+          Whether you&#39;re looking for classmates, researching school history, or exploring
+scholarship opportunities, FHS TouchPros houses the Alumni Archives and is your
+comprehensive resource for all things Fredericktown High School.
           </p>
           <a 
             href="https://fredericktown.touchpros.com/Home2" 

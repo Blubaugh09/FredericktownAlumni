@@ -2,6 +2,9 @@
 
 A modern, responsive website for the Fredericktown Alumni Association built with Next.js and Tailwind CSS.
 
+/Users/blubaugh/FredAlumni/ is the root directory.
+
+
 ## Features
 
 - Mobile-friendly design

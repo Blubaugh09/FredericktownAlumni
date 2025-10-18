@@ -57,8 +57,10 @@ export default function FAQ() {
                 <div>
                   <h4 className="text-xl font-semibold text-gray-900">How are the Awards made?</h4>
                   <p className="text-gray-800">
-                    Students complete an application available at the School Guidance Office. New Awards are made 
-                    each year by The Scholarship Committee who manages the Awards and the Renewals.
+                  Students complete an online application available at the Knox County Foundation
+(KCF)website. Selection of the new Awardees are made each year by The FHS Alumni
+Scholarship Committee. If the Award if for multiple years, Students must re-confirm
+their interest each year and their progress with the KCF.
                   </p>
                 </div>
                 

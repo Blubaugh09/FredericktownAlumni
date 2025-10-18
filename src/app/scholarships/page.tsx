@@ -168,7 +168,17 @@ export default function Scholarships() {
     {
       name: "Art & Beverly Dremann",
       slug: "art-beverly-dremann",
-      description: "Established in 2026 to recognize entire Dremann family’s career contributions to education. Art and Beverly Henwood ’55 Dremann and their daughters, Kathie-FHS-‘76 and Amy, FHS-‘79, together devoted over 150 years of service to young people."
+      description: "Established in 2026 to recognize entire Dremann family's career contributions to education. Art and Beverly Henwood '55 Dremann and their daughters, Kathie-FHS-'76 and Amy, FHS-'79, together devoted over 150 years of service to young people."
+    },
+    {
+      name: "Fredericktown Firefighters",
+      slug: "fredericktown-firefighters",
+      description: "Established in 2026 to honor the generations of individuals that selflessly made a commitment to the Fredericktown Community Fire District to render assistance to others, regardless of the situation and the risk. Sponsored by the Fredericktown Firefighters Association."
+    },
+    {
+      name: "Dr. William & Mary Bowlus Elder",
+      slug: "william-mary-elder",
+      description: "Established in 2026 to honor Dr. William & Mary Bowlus Elder, both FHS-1972, who dedicated their lives to serving the Fredericktown community. Bill as a family physician and Mary as an educator and librarian. Sponsored by the Elder family."
     }
   ];
 

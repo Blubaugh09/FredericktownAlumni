@@ -57,9 +57,11 @@ export default function FAQ() {
                 <div>
                   <h4 className="text-xl font-semibold text-gray-900">How are the Awards made?</h4>
                   <p className="text-gray-800">
-                    Students complete an application available at the School Guidance Office. New Awards are made 
-                    each year by The Scholarship Committee who manages the Awards and the Renewals.
-                  </p>
+                  Students complete an online application available at the Knox County Foundation
+(KCF)website. Selection of the new Awardees are made each year by The FHS Alumni
+Scholarship Committee. If the Award if for multiple years, Students must re-confirm
+their interest each year and their progress with the KCF.
+ </p>
                 </div>
                 
                 <div>
@@ -128,7 +130,7 @@ export default function FAQ() {
                       <h4 className="text-xl font-semibold text-gray-900 mb-4">Knox County Foundation</h4>
                       <p className="text-gray-800 mb-4">Donate directly through the Knox County Foundation website</p>
                       <a 
-                        href="https://knoxcf.org/" 
+                        href="https://knoxcf.fcsuite.com/erp/donate/create/fund?funit_id=1178" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
@@ -138,32 +140,17 @@ export default function FAQ() {
                     </div>
                     
                     <div className="bg-gray-50 p-6 rounded-lg">
-                      <h4 className="text-xl font-semibold text-gray-900 mb-4">FHS Alumni Website</h4>
-                      <p className="text-gray-800 mb-4">Donate through our official alumni website</p>
-                      <a 
-                        href="https://FredericktownAlumni.org" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
-                      >
-                        Visit Alumni Website
-                      </a>
+                      <h4 className="text-xl font-semibold text-gray-900 mb-4">By Mail</h4>
+                      <p className="text-gray-800 mb-4">
+                        <strong>Make check payable to:</strong> "FHS Alumni Scholarship Fund"
+                      </p>
+                      <p className="text-gray-800">
+                        <strong>Mail to:</strong><br />
+                        Knox County Foundation<br />
+                        P.O. Box 309<br />
+                        Mount Vernon, OH 43050-0309
+                      </p>
                     </div>
-                  </div>
-                </div>
-                
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6">By Mail</h3>
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <p className="text-gray-800 mb-4">
-                      <strong>Make check payable to:</strong> "FHS Alumni Scholarship Fund"
-                    </p>
-                    <p className="text-gray-800 mb-4">
-                      <strong>Mail to:</strong><br />
-                      Knox County Foundation<br />
-                      P.O. Box 309<br />
-                      Mount Vernon, OH 43050-0309
-                    </p>
                   </div>
                 </div>
                 
@@ -187,7 +174,9 @@ export default function FAQ() {
         <div className="mt-16 bg-school-red text-white rounded-lg p-8 text-center">
           <h2 className="text-2xl font-bold mb-4">Where to Find Everything Else</h2>
           <p className="text-lg max-w-3xl mx-auto mb-6">
-            FHS TouchPros is the comprehensive hub for all FHS information - your one-stop destination for students, staff, families, alumni, and fans.
+          FHS TouchPros stores our “Alumni Archives” providing the comprehensive hub for all
+FHS information - your one-stop destination for students, staff, families, alumni, and
+fans.
           </p>
           <a 
             href="https://fredericktown.touchpros.com/Home2" 
@@ -246,8 +235,34 @@ export default function FAQ() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
                 <div className="bg-gray-50 p-6 rounded-lg text-center">
+                  <h4 className="font-bold text-lg mb-2">10th Annual Report</h4>
+                  <p className="text-sm text-gray-500 mb-4">December 2024</p>
+                  <a 
+                    href="https://fredericktown.touchpros.com/FlipbookYear?tabid=8899" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    View Report
+                  </a>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg text-center">
+                  <h4 className="font-bold text-lg mb-2">9th Annual Report</h4>
+                  <p className="text-sm text-gray-500 mb-4">December 2023</p>
+                  <a 
+                    href="https://fredericktown.touchpros.com/FlipbookYear?tabid=8899" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    View Report
+                  </a>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg text-center">
                   <h4 className="font-bold text-lg mb-2">8th Annual Report</h4>
-                  <p className="text-sm text-gray-500 mb-4">June 2023</p>
+                  <p className="text-sm text-gray-500 mb-4">December 2022</p>
                   <a 
                     href="/pdfs/Annual_Reports/2023-06-18-FHS-Alumni-8th-Annual-Report-Option-2-V11.pdf" 
                     target="_blank"
@@ -260,7 +275,7 @@ export default function FAQ() {
 
                 <div className="bg-gray-50 p-6 rounded-lg text-center">
                   <h4 className="font-bold text-lg mb-2">7th Annual Report</h4>
-                  <p className="text-sm text-gray-500 mb-4">March 2022</p>
+                  <p className="text-sm text-gray-500 mb-4">December 2021</p>
                   <a 
                     href="/pdfs/Annual_Reports/2022-Alumni-Scholarships-7th-Annual-Report-V10-2.03.2022.pdf" 
                     target="_blank"
