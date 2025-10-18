@@ -81,9 +81,7 @@ export default function WilliamMaryElderContent() {
           </svg>
           View on FHS TouchPros
         </a>
-        <p className="text-sm text-gray-700 mt-4">
-          <strong>To contribute content, please email:</strong> <a href="mailto:fredericktownathletichof@gmail.com" className="text-school-red hover:text-red-800">fredericktownathletichof@gmail.com</a>
-        </p>
+        
       </div>
     </div>
   );
