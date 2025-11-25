@@ -180,6 +180,11 @@ const namedScholarships = [
     name: "Dr. William & Mary Bowlus Elder",
     slug: "william-mary-elder",
     description: "Established in 2026 to honor Dr. William & Mary Bowlus Elder, both FHS-1972, who dedicated their lives to serving the Fredericktown community. Bill as a family physician and Mary as an educator and librarian. Sponsored by the Elder family."
+  },
+  {
+    name: "Long Family",
+    slug: "long-family",
+    description: "Established in 2026 to honor the memory and service of Rarick W. and Dorothy B. Long to the Fredericktown community. Rarick was owner and publisher of The Knox County Citizen for 35 years, and together they strengthened and fostered unity in the community. Sponsored by their children: Rebecca Long Leakey, Harlan B. Long, and John C. Long, all FHS graduates. Preference given to students interested in pursuing journalism."
   }
 ];
 
