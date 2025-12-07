@@ -185,6 +185,11 @@ const namedScholarships = [
     name: "Long Family",
     slug: "long-family",
     description: "Established in 2026 to honor the memory and service of Rarick W. and Dorothy B. Long to the Fredericktown community. Rarick was owner and publisher of The Knox County Citizen for 35 years, and together they strengthened and fostered unity in the community. Sponsored by their children: Rebecca Long Leakey, Harlan B. Long, and John C. Long, all FHS graduates. Preference given to students interested in pursuing journalism."
+  },
+  {
+    name: "Marjorie A. Fearn",
+    slug: "marjorie-a-fearn",
+    description: "Established to honor Marjorie A. Fearn, class of 1950 Valedictorian, who lived a rewarding life in Fredericktown full of family and friends. She worked at Edwards Sheet Metal, retired from Mount Vernon Public Schools, and was active in the Fredericktown United Methodist Church, Tomato Show, local garden club, and bridge club. Sponsored by Marjorie herself as a caring Freddie, paying it forward to help deserving Fredericktown students."
   }
 ];
 
