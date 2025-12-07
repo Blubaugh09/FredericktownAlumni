@@ -214,15 +214,12 @@ export default async function ScholarshipPage({ params }: { params: Promise<{ sl
 
   // Dynamically import the scholarship content based on slug
   const ScholarshipContent = dynamic(
-    async () => {
-      try {
-        const module = await import(`@/data/scholarships/${slug}`);
-        return module;
-      } catch (error) {
-        // If the file doesn't exist, return the default content
-        return { default: () => <DefaultScholarshipContent name={scholarship.name} /> };
-      }
-    },
+    () => import(`@/data/scholarships/${slug}`).catch(() => {
+      // If the file doesn't exist, return the default content
+      return { 
+        default: () => <DefaultScholarshipContent name={scholarship.name} /> 
+      };
+    }),
     {
       loading: () => <p className="text-gray-500">Loading scholarship content...</p>,
       ssr: true,
