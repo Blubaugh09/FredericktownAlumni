@@ -4,6 +4,56 @@ import { Suspense } from 'react';
 import dynamic from 'next/dynamic';
 import DefaultScholarshipContent from '@/data/scholarships/default-content';
 
+// Explicit imports for all scholarship content files (required for production builds)
+const scholarshipContentMap: Record<string, () => Promise<any>> = {
+  'ula-weller-leedy': () => import('@/data/scholarships/ula-weller-leedy'),
+  'richard-k-wilson': () => import('@/data/scholarships/richard-k-wilson'),
+  'william-marietta-mahaffey': () => import('@/data/scholarships/william-marietta-mahaffey'),
+  'class-of-1961': () => import('@/data/scholarships/class-of-1961'),
+  'class-of-1947': () => import('@/data/scholarships/class-of-1947'),
+  'otho-iris-eyster': () => import('@/data/scholarships/otho-iris-eyster'),
+  'phillips-frye': () => import('@/data/scholarships/phillips-frye'),
+  'gold-star-parents': () => import('@/data/scholarships/gold-star-parents'),
+  'class-of-1958': () => import('@/data/scholarships/class-of-1958'),
+  'class-of-1959-julie-cochran-rogers': () => import('@/data/scholarships/class-of-1959-julie-cochran-rogers'),
+  'carmon-betty-weller': () => import('@/data/scholarships/carmon-betty-weller'),
+  'willie-davis': () => import('@/data/scholarships/willie-davis'),
+  'dean-jane-streby': () => import('@/data/scholarships/dean-jane-streby'),
+  'lori-ackerman': () => import('@/data/scholarships/lori-ackerman'),
+  'rachel-gregg-stem': () => import('@/data/scholarships/rachel-gregg-stem'),
+  'fhs-hall-of-honor': () => import('@/data/scholarships/distinguished-alumni-hall-of-honor'),
+  'clyde-edna-boyd': () => import('@/data/scholarships/clyde-edna-boyd'),
+  'jack-jean-carter': () => import('@/data/scholarships/jack-jean-carter'),
+  'janet-hadley-mather': () => import('@/data/scholarships/janet-hadley-mather'),
+  'ruth-auker-stem': () => import('@/data/scholarships/ruth-auker-stem'),
+  'morris-sue-james': () => import('@/data/scholarships/morris-sue-james'),
+  'catherine-zagula-stem': () => import('@/data/scholarships/catherine-zagula-stem'),
+  'rusty-mary-dalrymple': () => import('@/data/scholarships/rusty-mary-dalrymple'),
+  'david-dalrymple': () => import('@/data/scholarships/david-dalrymple'),
+  'tracie-weller-stem': () => import('@/data/scholarships/tracie-weller-stem'),
+  'robert-patricia-ronk': () => import('@/data/scholarships/robert-patricia-ronk'),
+  'gary-sharon-streby': () => import('@/data/scholarships/gary-sharon-streby'),
+  'jeannine-weller-davis': () => import('@/data/scholarships/jeannine-weller-davis'),
+  'chris-fearn-well': () => import('@/data/scholarships/chris-fearn-well'),
+  'ed-sandy-erick': () => import('@/data/scholarships/ed-sandy-erick'),
+  'class-of-1974': () => import('@/data/scholarships/class-of-1974'),
+  'roy-mckinley': () => import('@/data/scholarships/roy-mckinley'),
+  'art-beverly-dremann': () => import('@/data/scholarships/art-beverly-dremann'),
+  'fredericktown-firefighters': () => import('@/data/scholarships/fredericktown-firefighters'),
+  'william-mary-elder': () => import('@/data/scholarships/william-mary-elder'),
+  'long-family': () => import('@/data/scholarships/long-family'),
+  'marjorie-a-fearn': () => import('@/data/scholarships/marjorie-a-fearn'),
+  // Family variants
+  'jack-jean-carter-family': () => import('@/data/scholarships/jack-jean-carter-family'),
+  'morris-sue-james-family': () => import('@/data/scholarships/morris-sue-james-family'),
+  'rusty-mary-dalrymple-family': () => import('@/data/scholarships/rusty-mary-dalrymple-family'),
+  'david-l-dalrymple-family': () => import('@/data/scholarships/david-l-dalrymple-family'),
+  'catherine-zagula-women-in-stem': () => import('@/data/scholarships/catherine-zagula-women-in-stem'),
+  'ruth-e-auker-women-in-stem': () => import('@/data/scholarships/ruth-e-auker-women-in-stem'),
+  'rachel-a-gregg-women-in-stem': () => import('@/data/scholarships/rachel-a-gregg-women-in-stem'),
+  'lori-ackerman-class-of-1988': () => import('@/data/scholarships/lori-ackerman-class-of-1988'),
+};
+
 // Define the scholarships data, same as in the main scholarships page
 const namedScholarships = [
   {
@@ -213,13 +263,13 @@ export default async function ScholarshipPage({ params }: { params: Promise<{ sl
   }
 
   // Dynamically import the scholarship content based on slug
+  // Use explicit mapping for production build compatibility
+  const getScholarshipContent = scholarshipContentMap[slug] || (() => 
+    Promise.resolve({ default: () => <DefaultScholarshipContent name={scholarship.name} /> })
+  );
+
   const ScholarshipContent = dynamic(
-    () => import(`@/data/scholarships/${slug}`).catch(() => {
-      // If the file doesn't exist, return the default content
-      return { 
-        default: () => <DefaultScholarshipContent name={scholarship.name} /> 
-      };
-    }),
+    getScholarshipContent,
     {
       loading: () => <p className="text-gray-500">Loading scholarship content...</p>,
       ssr: true,
