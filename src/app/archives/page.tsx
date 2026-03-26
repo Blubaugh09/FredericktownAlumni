@@ -266,6 +266,26 @@ export default function AlumniArchives() {
                 Honor Veterans
               </a>
             </div>
+            
+            <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+              <div className="bg-gray-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                </svg>
+              </div>
+              <h4 className="text-xl font-bold text-gray-900 mb-3">In Memoriam</h4>
+              <p className="text-gray-700 mb-4">
+                Remember classmates who have passed and look them up by graduation year to honor those you knew and loved.
+              </p>
+              <a 
+                href="https://fredericktown.touchpros.com/SearchBy?tabid=13000&filtertype=Graduation" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+              >
+                View In Memoriam
+              </a>
+            </div>
           </div>
         </div>
 
