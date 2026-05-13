@@ -32,7 +32,7 @@ export default function Home() {
                   rel="noopener noreferrer" 
                   className="inline-flex items-center justify-center px-5 py-3 border border-gray-300 text-base font-bold rounded-md text-white bg-gray-700 hover:bg-gray-600 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
-                  Support Our Mission
+                  Donate
                 </a>
               </div>
             </div>
