@@ -43,6 +43,7 @@ const scholarshipContentMap: Record<string, () => Promise<any>> = {
   'william-mary-elder': () => import('@/data/scholarships/william-mary-elder'),
   'long-family': () => import('@/data/scholarships/long-family'),
   'marjorie-a-fearn': () => import('@/data/scholarships/marjorie-a-fearn'),
+  'raymond-belinda-bishop-litt': () => import('@/data/scholarships/raymond-belinda-bishop-litt'),
   // Family variants
   'jack-jean-carter-family': () => import('@/data/scholarships/jack-jean-carter-family'),
   'morris-sue-james-family': () => import('@/data/scholarships/morris-sue-james-family'),
@@ -240,6 +241,11 @@ const namedScholarships = [
     name: "Marjorie A. Fearn",
     slug: "marjorie-a-fearn",
     description: "Established to honor Marjorie A. Fearn, class of 1950 Valedictorian, who lived a rewarding life in Fredericktown full of family and friends. She worked at Edwards Sheet Metal, retired from Mount Vernon Public Schools, and was active in the Fredericktown United Methodist Church, Tomato Show, local garden club, and bridge club. Sponsored by Marjorie herself as a caring Freddie, paying it forward to help deserving Fredericktown students."
+  },
+  {
+    name: "Raymond & Belinda Bishop Litt",
+    slug: "raymond-belinda-bishop-litt",
+    description: "Established to honor the life of Raymond Litt, FHS-1979, owner of Raymond Litt Trucking, who logged over five million miles during his 41-year driving career. Generously funded by his wife, Belinda Bishop, FHS-1974, Litt, a retired educator. First awarded to a 2027 FHS graduate."
   }
 ];
 
