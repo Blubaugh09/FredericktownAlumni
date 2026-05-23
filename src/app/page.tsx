@@ -364,7 +364,7 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
               </div>
             </div>
 
-            {/* Update 2: 10th Annual Report */}
+            {/* Update 2: 11th Annual Report */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <div className="h-2 bg-school-red"></div>
               <div className="p-6">
@@ -375,15 +375,15 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
                     </svg>
                   </div>
                   <div className="ml-3">
-                    <span className="text-sm font-medium text-gray-500">May 2025</span>
+                    <span className="text-sm font-medium text-gray-500">May 2026</span>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">FHS Alumni 10th Annual Scholarship Report Released</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">FHS Alumni 11th Annual Scholarship Report Released</h3>
                 <p className="text-gray-600 mb-4">
-                  Our comprehensive 10th Annual Report showcases a decade of "Freddies Helping Freddies" - highlighting scholarship recipients, donor impact, and fund growth.
+                  Our latest Annual Report continues the "Freddies Helping Freddies" story - highlighting the past year's scholarship recipients, donor impact, and fund growth.
                 </p>
-                <a 
-                  href="/pdfs/Annual_Reports/2025-05-11 - FHS Alumni 10th Annual Report V19.pdf" 
+                <a
+                  href="/pdfs/Annual_Reports/2026-05-06 - FHS Alumni 11th Annual Report V11.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-school-red hover:text-red-800 font-medium text-sm flex items-center"
