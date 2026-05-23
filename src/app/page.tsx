@@ -49,6 +49,77 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Annual Banquet Announcement */}
+      <section className="py-12 bg-white border-b border-gray-200">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <span className="inline-block px-4 py-1 mb-3 text-sm font-bold uppercase tracking-wider text-white bg-school-red rounded-full">
+              Save the Date
+            </span>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">
+              Fredericktown Alumni Association Annual Banquet
+            </h2>
+            <p className="mt-3 text-xl text-gray-700">
+              Saturday, June 27, 2026 &middot; FHS Commons Room
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-gray-50 rounded-lg shadow-md border border-gray-200 overflow-hidden p-6 md:p-8">
+            {/* Flyer image */}
+            <div className="flex justify-center">
+              <a
+                href="/images/annual-banquet-2026.jpg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block group"
+                aria-label="Open full-size Annual Banquet flyer"
+              >
+                <Image
+                  src="/images/annual-banquet-2026.jpg"
+                  alt="Fredericktown Alumni Association Annual Banquet flyer for Saturday, June 27, 2026 at the FHS Commons Room"
+                  width={1200}
+                  height={900}
+                  className="w-full h-auto rounded-md shadow-lg border border-gray-300 transition-transform duration-200 group-hover:scale-[1.02]"
+                  priority
+                />
+              </a>
+            </div>
+
+            {/* Accessible text details */}
+            <div className="text-gray-800">
+              <h3 className="text-2xl font-bold text-school-red mb-4">Event Details</h3>
+              <ul className="space-y-2 text-lg mb-6">
+                <li><span className="font-semibold">Date:</span> Saturday, June 27, 2026</li>
+                <li><span className="font-semibold">Location:</span> FHS Commons Room</li>
+                <li><span className="font-semibold">Social Hour:</span> 5:30 pm</li>
+                <li><span className="font-semibold">Dinner &amp; Meeting:</span> 6:30 pm</li>
+              </ul>
+
+              <h3 className="text-2xl font-bold text-school-red mb-3">Pricing</h3>
+              <ul className="space-y-1 text-lg mb-6">
+                <li><span className="font-semibold">Early Bird (before 6/6/2026):</span> $20 per person</li>
+                <li><span className="font-semibold">After 6/6/2026:</span> $25 per person</li>
+              </ul>
+
+              <h3 className="text-2xl font-bold text-school-red mb-3">Reservations</h3>
+              <p className="text-lg mb-2">
+                Contact <span className="font-semibold">Kelly Goff Castle</span> at{' '}
+                <a href="tel:14195449918" className="text-school-red hover:text-red-800 font-medium">
+                  419-544-9918
+                </a>
+              </p>
+              <p className="text-lg">
+                Or send a check payable to <span className="font-semibold">Fredericktown Alumni Association</span> to:
+                <br />
+                1260 State Route 97 E #93
+                <br />
+                Bellville, OH 44813
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FHS Alumni Scholarship Fund Section */}
       <section className="py-16 bg-gray-50 border-t border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
