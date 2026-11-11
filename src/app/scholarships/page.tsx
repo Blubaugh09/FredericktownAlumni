@@ -189,6 +189,16 @@ export default function Scholarships() {
       name: "Marjorie A. Fearn",
       slug: "marjorie-a-fearn",
       description: "Established to honor Marjorie A. Fearn, class of 1950 Valedictorian, who lived a rewarding life in Fredericktown full of family and friends. She worked at Edwards Sheet Metal, retired from Mount Vernon Public Schools, and was active in the Fredericktown United Methodist Church, Tomato Show, local garden club, and bridge club. Sponsored by Marjorie herself as a caring Freddie, paying it forward to help deserving Fredericktown students."
+    },
+    {
+      name: "Todd Wilkinson",
+      slug: "todd-wilkinson",
+      description: "The Todd Wilkinson Scholarship, first awarded to a 2027 graduate, was created by Todd's lifelong friends and Fredericktown High School football teammates, Rob McClelland, Jim Davis, and Jamie Bryant, with strong support from the Wilkinson family and many friends. A standout member of Fredericktown's undefeated 1986 football team, Todd built a successful career in construction management and earned the respect of all who knew him through his integrity, humility, dependability, toughness, and caring spirit. This scholarship ensures that Todd's legacy will live on by encouraging future Fredericktown graduates to embrace those same enduring values."
+    },
+    {
+      name: "Raymond & Belinda Bishop Litt",
+      slug: "raymond-belinda-bishop-litt",
+      description: "Established to honor the life of Raymond Litt, FHS-1979, owner of Raymond Litt Trucking, who logged over five million miles during his 41-year driving career. Generously funded by his wife, Belinda Bishop, FHS-1974, Litt, a retired educator. First awarded to a 2027 FHS graduate."
     }
   ];
 

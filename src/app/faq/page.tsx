@@ -235,10 +235,23 @@ fans.
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
                 <div className="bg-gray-50 p-6 rounded-lg text-center">
+                  <h4 className="font-bold text-lg mb-2">11th Annual Report</h4>
+                  <p className="text-sm text-gray-500 mb-4">May 2026</p>
+                  <a
+                    href="/pdfs/Annual_Reports/2026-05-06 - FHS Alumni 11th Annual Report V11.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
+                  >
+                    View Report
+                  </a>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg text-center">
                   <h4 className="font-bold text-lg mb-2">10th Annual Report</h4>
-                  <p className="text-sm text-gray-500 mb-4">December 2024</p>
-                  <a 
-                    href="https://fredericktown.touchpros.com/FlipbookYear?tabid=8899" 
+                  <p className="text-sm text-gray-500 mb-4">May 2025</p>
+                  <a
+                    href="/pdfs/Annual_Reports/2025-05-11 - FHS Alumni 10th Annual Report V19.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-school-red hover:bg-red-800"
