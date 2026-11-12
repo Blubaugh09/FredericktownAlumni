@@ -218,77 +218,99 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
           <div className="bg-gradient-to-r from-school-red to-red-800 text-white rounded-lg p-8 mb-12 text-center">
             <div className="max-w-4xl mx-auto">
               <h3 className="text-2xl font-bold mb-4">FUND BALANCE</h3>
-              <div className="text-5xl md:text-6xl font-extrabold mb-4">$1,200,654</div>
-              <p className="text-xl mb-6">as of December 31, 2024</p>
+              <div className="text-5xl md:text-6xl font-extrabold mb-4">$1,564,383</div>
+              <p className="text-xl mb-6">as of December 31, 2025</p>
               <div className="bg-white/20 rounded-lg p-4 inline-block">
                 <p className="text-lg">
                   <span className="font-semibold">Starting with a balance of just under $10,000 in 2015</span>
                   <br />
-                  the Fund has grown to <span className="font-bold text-2xl">$1,200,654</span>
+                  the Fund has grown to over <span className="font-bold text-2xl">$1.5 Million</span>
                 </p>
               </div>
-              <p className="text-2xl font-bold mt-6">Thank you Donors!</p>
+              <p className="text-2xl font-bold mt-6">Thank you, Donors!</p>
             </div>
           </div>
 
-          {/* 2024 Highlights Grid */}
+          {/* 2025 Highlights Grid (from the 11th Annual Report, Dec 31, 2025) */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">2024 Highlights</h3>
+            <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">2025 Highlights</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              
+
               {/* Donor Contributions */}
               <div className="bg-gray-50 rounded-lg p-6 text-center border-l-4 border-school-red">
-                <div className="text-3xl font-bold text-school-red mb-2">$86,000</div>
+                <div className="text-3xl font-bold text-school-red mb-2">$257,000</div>
                 <p className="text-gray-700 font-medium">Donor Contributions</p>
               </div>
-              
+
               {/* Number of Donors */}
               <div className="bg-gray-50 rounded-lg p-6 text-center border-l-4 border-school-red">
-                <div className="text-3xl font-bold text-school-red mb-2">190</div>
+                <div className="text-3xl font-bold text-school-red mb-2">150</div>
                 <p className="text-gray-700 font-medium">Number of Donors</p>
               </div>
-              
+
               {/* Market Returns */}
               <div className="bg-gray-50 rounded-lg p-6 text-center border-l-4 border-school-red">
-                <div className="text-3xl font-bold text-school-red mb-2">$157,000</div>
+                <div className="text-3xl font-bold text-school-red mb-2">$182,000</div>
                 <p className="text-gray-700 font-medium">Market Returns</p>
-                <p className="text-sm text-gray-600 mt-1">15.1%</p>
               </div>
-              
+
               {/* Scholarship Awards */}
               <div className="bg-gray-50 rounded-lg p-6 text-center border-l-4 border-school-red">
-                <div className="text-3xl font-bold text-school-red mb-2">37</div>
+                <div className="text-3xl font-bold text-school-red mb-2">$51,000</div>
                 <p className="text-gray-700 font-medium">Scholarship Awards</p>
-                <p className="text-sm text-gray-600 mt-1">Total of $46,000</p>
+                <p className="text-sm text-gray-600 mt-1">Total awarded in 2025</p>
               </div>
               
             </div>
           </div>
 
           {/* Additional Highlights */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-            
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
+
             {/* New Scholarships */}
             <div className="bg-gray-50 rounded-lg p-6">
               <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
                 <svg className="h-6 w-6 text-school-red mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                 </svg>
-                New Scholarships in 2025
+                New Scholarships in 2026
               </h4>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start">
-                  <span className="text-school-red mr-2">•</span>
-                  Chris Fearn Well
-                </li>
-                <li className="flex items-start">
-                  <span className="text-school-red mr-2">•</span>
-                  Ed & Sandy Erick & Family
-                </li>
-                <li className="flex items-start">
-                  <span className="text-school-red mr-2">•</span>
-                  Class of 1974
-                </li>
+                {[
+                  "Roy McKinley",
+                  "Art & Beverly Dremann",
+                  "Dr. Bill & Mary Elder",
+                  "Long Family",
+                  "Fredericktown Firefighters",
+                  "Marjorie Fearn",
+                ].map((name) => (
+                  <li key={name} className="flex items-start">
+                    <span className="text-school-red mr-2">•</span>
+                    {name}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Coming Next Year */}
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                <svg className="h-6 w-6 text-school-red mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                Coming in 2027
+              </h4>
+              <ul className="space-y-2 text-gray-700">
+                {[
+                  "Walsh Family",
+                  "Todd Wilkinson",
+                  "Raymond & Belinda Litt",
+                ].map((name) => (
+                  <li key={name} className="flex items-start">
+                    <span className="text-school-red mr-2">•</span>
+                    {name}
+                  </li>
+                ))}
               </ul>
             </div>
             
@@ -298,11 +320,11 @@ The Fund is professionally managed by the Knox County Foundation; donations are 
                 <svg className="h-6 w-6 text-school-red mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
-                Scholarship Awards since 1994
+                Scholarship Awards since 1995
               </h4>
               <div className="text-center">
-                <div className="text-2xl font-bold text-school-red">123 Students</div>
-                <div className="text-2xl font-bold text-school-red">$249,700</div>
+                <div className="text-2xl font-bold text-school-red">154 Students</div>
+                <div className="text-2xl font-bold text-school-red">$300,700</div>
                 <p className="text-gray-600 mt-2">Total Impact Over 30 Years</p>
               </div>
             </div>
